@@ -1,0 +1,1 @@
+File.write("output.txt", "Hello, 文件!")

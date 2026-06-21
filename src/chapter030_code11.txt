@@ -1,0 +1,21 @@
+<div class="container">
+  <header class="mb-4">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">我的博客</a>
+        <div class="navbar-nav">
+          <a class="nav-link" href="/">首页</a>
+          <a class="nav-link" href="/articles/new">写文章</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <%= yield %>
+  </main>
+
+  <footer class="text-center text-muted mt-5 py-3">
+    <p>&copy; 2026 我的博客</p>
+  </footer>
+</div>

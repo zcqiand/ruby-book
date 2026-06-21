@@ -1,0 +1,325 @@
+# doc/api/openapi.yaml
+# 电商 API OpenAPI 3.0 规范文档
+# 用于生成交互式 API 文档、客户端 SDK、接口测试
+
+openapi: 3.0.0
+info:
+  title: 电商 API
+  description: |
+    电商平台 RESTful API，支持用户认证、商品管理、订单处理等功能。
+    所有需要认证的接口，请在请求头中携带 JWT token：
+    `Authorization: Bearer <your_token>`
+  version: 1.0.0
+  contact:
+    name: API Support
+    email: support@example.com
+
+servers:
+  - url: https://api.example.com
+    description: 生产环境
+  - url: https://staging-api.example.com
+    description: 预发环境
+
+# ============================================================
+# 安全配置
+# ============================================================
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: JWT token obtained from /api/login
+
+  # 响应模板定义，避免重复
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: string
+          description: 错误描述
+      required:
+        - error
+
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: 商品ID
+        name:
+          type: string
+          description: 商品名称
+        price:
+          type: number
+          format: decimal
+          description: 价格（元）
+        stock:
+          type: integer
+          description: 库存数量
+      required:
+        - id
+        - name
+        - price
+
+    Order:
+      type: object
+      properties:
+        id:
+          type: integer
+          description: 订单ID
+        user_id:
+          type: integer
+          description: 用户ID
+        status:
+          type: string
+          enum: [pending, paid, shipped, completed, cancelled]
+          description: 订单状态
+        total_amount:
+          type: number
+          format: decimal
+          description: 订单总金额
+        created_at:
+          type: string
+          format: date-time
+      required:
+        - id
+        - user_id
+        - status
+
+# ============================================================
+# 接口路径定义
+# ============================================================
+paths:
+  # ----------------------------------------------------------
+  # 认证接口
+  # ----------------------------------------------------------
+  /api/login:
+    post:
+      summary: 用户登录
+      description: |
+        使用邮箱和密码登录，验证成功后返回 JWT token。
+        token 有效期为 7 天。
+      tags:
+        - 认证
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                  example: user@example.com
+                password:
+                  type: string
+                  format: password
+                  minLength: 6
+                  example: password123
+              required:
+                - email
+                - password
+      responses:
+        '200':
+          description: 登录成功
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                    description: JWT token，用于后续请求认证
+                    example: eyJhbGciOiJIUzI1NiJ9...
+              example:
+                token: eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjN9.signature
+        '401':
+          description: 认证失败（邮箱或密码错误）
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+              example:
+                error: Invalid credentials
+
+  # ----------------------------------------------------------
+  # 商品接口
+  # ----------------------------------------------------------
+  /api/products:
+    get:
+      summary: 获取商品列表
+      description: 返回商品列表，支持分页和筛选
+      tags:
+        - 商品
+      security:
+        - BearerAuth: []  # 此接口需要认证
+      parameters:
+        - name: page
+          in: query
+          description: 页码
+          schema:
+            type: integer
+            default: 1
+        - name: per_page
+          in: query
+          description: 每页数量
+          schema:
+            type: integer
+            default: 20
+            maximum: 100
+        - name: category
+          in: query
+          description: 商品分类筛选
+          schema:
+            type: string
+      responses:
+        '200':
+          description: 成功获取商品列表
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Product'
+                  pagination:
+                    type: object
+                    properties:
+                      current_page:
+                        type: integer
+                      total_pages:
+                        type: integer
+                      total_count:
+                        type: integer
+              example:
+                data:
+                  - id: 1
+                    name: iPhone 15 Pro
+                    price: 7999.00
+                    stock: 150
+                  - id: 2
+                    name: MacBook Pro M3
+                    price: 12999.00
+                    stock: 80
+                pagination:
+                  current_page: 1
+                  total_pages: 5
+                  total_count: 100
+        '401':
+          description: 未提供或无效的 token
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+    post:
+      summary: 创建商品
+      description: 添加新商品到目录（需要管理员权限）
+      tags:
+        - 商品
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+                price:
+                  type: number
+                stock:
+                  type: integer
+                category:
+                  type: string
+              required:
+                - name
+                - price
+      responses:
+        '201':
+          description: 商品创建成功
+        '401':
+          description: 未授权
+        '403':
+          description: 无管理员权限
+
+  # ----------------------------------------------------------
+  # 订单接口
+  # ----------------------------------------------------------
+  /api/orders:
+    get:
+      summary: 获取当前用户的订单列表
+      description: 返回当前登录用户的所有订单
+      tags:
+        - 订单
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: 成功获取订单列表
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Order'
+              example:
+                data:
+                  - id: 1
+                    user_id: 42
+                    status: completed
+                    total_amount: 15998.00
+                    created_at: '2024-01-15T10:30:00Z'
+                  - id: 2
+                    user_id: 42
+                    status: pending
+                    total_amount: 2999.00
+                    created_at: '2024-01-20T14:22:00Z'
+        '401':
+          description: 未提供或无效的 token
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+    post:
+      summary: 创建订单
+      description: 为当前用户创建新订单
+      tags:
+        - 订单
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                product_ids:
+                  type: array
+                  items:
+                    type: integer
+                  description: 商品ID列表
+                quantities:
+                  type: array
+                  items:
+                    type: integer
+                  description: 对应商品数量
+              required:
+                - product_ids
+      responses:
+        '201':
+          description: 订单创建成功
+        '401':
+          description: 未授权

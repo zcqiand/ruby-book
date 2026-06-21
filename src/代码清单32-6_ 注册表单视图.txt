@@ -1,0 +1,45 @@
+<%# app/views/users/new.html.erb %>
+<%# 用户注册表单：包含密码确认字段 %>
+
+<h1>注册新账号</h1>
+
+<%# @user.errors.full_messages 显示验证失败原因 %>
+<% if @user.errors.any? %>
+  <div style="color: red;">
+    <ul>
+      <% @user.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<%= form_with model: @user, url: users_path, method: :post do |f| %>
+  <div>
+    <%= f.label :name, "姓名" %>
+    <%= f.text_field :name, required: true %>
+  </div>
+
+  <div>
+    <%= f.label :email, "邮箱" %>
+    <%= f.email_field :email, required: true %>
+  </div>
+
+  <div>
+    <%= f.label :password, "密码（至少8字符）" %>
+    <%= f.password_field :password, required: true, minlength: 8 %>
+  </div>
+
+  <div>
+    <%= f.label :password_confirmation, "确认密码" %>
+    <%= f.password_field :password_confirmation, required: true %>
+  </div>
+
+  <div>
+    <%= f.submit "注册" %>
+  </div>
+<% end %>
+
+<p>
+  已有账号？<%= link_to "立即登录", login_path %>
+</p>

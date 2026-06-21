@@ -1,0 +1,1 @@
+gem install ./my_gem-0.1.0.gem

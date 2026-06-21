@@ -1,0 +1,7 @@
+<h1>所有文章</h1>
+
+<% @articles.each do |article| %>
+  <%= erb :_article, locals: { article: article } %>
+<% end %>
+
+<a href="/articles/new" class="btn-primary">写新文章</a>

@@ -1,0 +1,194 @@
+# .github/workflows/ci.yml
+# 完整的 GitHub Actions CI/CD 配置，用于自动化测试、代码风格检查和覆盖率报告
+# 使用 Ruby 3.3 环境，搭配 Bundler 2.x 依赖管理，确保与 version-lock.json 一致
+
+name: CI
+
+on:
+  # 代码推送或 PR 到 main 分支时触发
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  # 环境变量统一管理，方便各步骤共享配置
+  RUBY_VERSION: '3.3'
+  BUNDLER_VERSION: '2.4.0'
+  RAILS_ENV: 'test'
+
+jobs:
+  # 任务矩阵：支持多 Ruby 版本和数据库后端组合
+  test:
+    runs-on: ubuntu-latest
+    
+    # 数据库服务：使用 GitHub Actions 内置的 PostgreSQL 服务容器
+    services:
+      postgres:
+        image: postgres:16
+        ports:
+          - 5432:5432
+        env:
+          POSTGRES_USER: rails
+          POSTGRES_PASSWORD: password
+          POSTGRES_DB: app_test
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    # 策略矩阵定义测试组合
+    strategy:
+      fail-fast: false
+      matrix:
+        ruby: ['3.3', '3.4']
+
+    steps:
+      # 检出代码仓库
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 设置 Ruby 环境，使用 ruby-version 从 .ruby-version 文件读取版本
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+          bundler-cache: true
+
+      # 安装系统依赖（Node.js 用于 assets 编译）
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends \
+            nodejs \
+            postgresql-client \
+            libpq-dev
+
+      # 缓存 Bundler 依赖以加速后续运行
+      # 缓存 key 包含 ruby 版本和 Gemfile.lock 哈希，确保依赖变更时自动刷新缓存
+      - name: Cache Bundler
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-bundler-${{ matrix.ruby }}-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bundler-${{ matrix.ruby }}-
+            ${{ runner.os }}-bundler-
+
+      # 安装 Ruby Gem 依赖
+      # --jobs 4 并行安装加速，--retry 3 网络抖动时自动重试
+      - name: Install gems
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle config set --local jobs 4
+          bundle config set --local retry 3
+          bundle install
+
+      # 创建 config/database.yml（GitHub Secrets 存储真实凭证）
+      # 这样做的好处是本地和 CI 使用不同的数据库配置，互不干扰
+      - name: Create database config
+        run: |
+          cat > config/database.yml << 'EOF'
+          test:
+            adapter: postgresql
+            encoding: unicode
+            host: localhost
+            port: 5432
+            database: app_test
+            username: rails
+            password: password
+            pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+          EOF
+
+      # 创建 secrets.yml（从 GitHub Secrets 读取敏感信息）
+      - name: Configure secrets
+        run: |
+          cat > config/secrets.yml << 'EOF'
+          test:
+            secret_key_base: ${{ secrets.RAILS_SECRET_KEY_BASE_TEST }}
+          production:
+            secret_key_base: ${{ secrets.RAILS_SECRET_KEY_BASE }}
+          EOF
+
+      # 准备测试数据库
+      - name: Setup database
+        run: |
+          bundle exec rails db:create db:schema:load
+        env:
+          DATABASE_URL: postgres://rails:password@localhost:5432/app_test
+
+      # 运行 Minitest 测试
+      # RAILS_MAX_THREADS=5 配合数据库连接池，避免并发测试时连接耗尽
+      - name: Run tests
+        run: |
+          bundle exec rails test
+        env:
+          DATABASE_URL: postgres://rails:password@localhost:5432/app_test
+          RAILS_MAX_THREADS: 5
+
+      # 使用 SimpleCov 生成测试覆盖率报告
+      # 需要在 test_helper.rb 中已配置 SimpleCov，详见 lib/tasks/coverage.rake
+      - name: Generate coverage report
+        run: bundle exec rake coverage
+        env:
+          DATABASE_URL: postgres://rails:password@localhost:5432/app_test
+
+      # 上传覆盖率报告到 Codecov
+      # 需要在仓库设置中添加 CODECOV_TOKEN secret
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: coverage/coverage.xml
+          flags: unittests
+          fail_ci_if_error: false
+        continue-on-error: true
+
+  # 代码风格检查 job（与测试 job 并行运行节省时间）
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Install gems
+        run: bundle install
+
+      # 运行 Rubocop 代码风格检查
+      # --parallel 使用多核加速，--format github 输出 GitHub Actions 注解格式
+      - name: Run Rubocop
+        run: bundle exec rubocop --parallel --format github
+        continue-on-error: true
+
+      # 将 Rubocop 警告发布为 PR 注释
+      - name: Publish Rubocop results
+        if: always()
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: rubocop.sarif
+        continue-on-error: true
+
+  # 安全检查 job
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Install gems
+        run: bundle install
+
+      # 使用 bundler-audit 检查 Gemfile.lock 中的已知漏洞
+      - name: Security audit
+        run: bundle exec bundle audit check --update
+        continue-on-error: true

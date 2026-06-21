@@ -1,0 +1,15 @@
+<!-- views/edit.erb — 编辑文章表单 -->
+<!-- 关键：method="post" + 隐藏字段 _method="put" 模拟 PUT 请求 -->
+<h1>编辑文章</h1>
+
+<form action="/articles/<%= @article.id %>" method="post">
+  <input type="hidden" name="_method" value="put">
+
+  <label for="title">标题：</label>
+  <input type="text" id="title" name="title" value="<%= @article.title %>" required>
+
+  <label for="content">内容：</label>
+  <textarea id="content" name="content" rows="10" required><%= @article.content %></textarea>
+
+  <button type="submit">保存修改</button>
+</form>

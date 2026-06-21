@@ -1,0 +1,11 @@
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: bundle exec rails test
+  
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test  # 等待 test job 完成
+    steps:
+      - run: ./deploy.sh

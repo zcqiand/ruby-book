@@ -1,0 +1,33 @@
+# /etc/systemd/system/myapp.service
+# 为什么：用 systemd 管理 Puma，实现服务自启动、故障自动重启
+# 这是生产环境部署的标准做法，比手动运行 rails server 可靠得多
+
+[Unit]
+Description=My Rails App Puma Server
+After=network.target
+
+[Service]
+Type=notify
+User=deploy
+Group=deploy
+WorkingDirectory=/PATH_TO_YOUR_APP/current
+
+# 为什么：环境变量文件通常不提交到 Git，需要单独管理
+EnvironmentFile=/PATH_TO_YOUR_APP/shared/config/.env.production
+
+# 为什么：用 bundle exec 启动确保使用 Gemfile 指定的版本
+ExecStart=/usr/local/bin/bundle exec puma -C /PATH_TO_YOUR_APP/current/config/puma.rb
+ExecReload=/bin/kill -USR1 $MAINPID
+ExecStop=/bin/kill -TERM $MAINPID
+
+# 为什么：非零退出码时自动重启，实现故障自愈
+Restart=always
+RestartSec=5
+
+# 为什么：日志输出到 systemd journal，方便排查问题
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=myapp
+
+[Install]
+WantedBy=multi-user.target

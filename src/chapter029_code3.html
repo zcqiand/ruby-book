@@ -1,0 +1,13 @@
+<!-- 编辑文章的表单：浏览器发送 POST，服务器识别为 PUT -->
+<form action="/articles/42" method="post">
+  <input type="hidden" name="_method" value="put">
+  <input name="title" value="修改后的标题">
+  <textarea name="content"></textarea>
+  <button type="submit">保存</button>
+</form>
+
+<!-- 删除文章的表单：浏览器发送 POST，服务器识别为 DELETE -->
+<form action="/articles/42" method="post">
+  <input type="hidden" name="_method" value="delete">
+  <button type="submit">删除</button>
+</form>

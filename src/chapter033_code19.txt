@@ -1,0 +1,21 @@
+<%# app/views/comments/_form.html.erb %>
+<%= form_with model: [post, comment], local: true do |f| %>
+  <% if comment.parent_id %>
+    <%# 回复场景：隐藏 parent_id %>
+    <%= f.hidden_field :parent_id, value: comment.parent_id %>
+    <p>回复评论</p>
+  <% else %>
+    <p>发表评论</p>
+  <% end %>
+  
+  <div class="field">
+    <%= f.text_area :content, 
+        placeholder: '写下你的评论...',
+        rows: 3,
+        required: true %>
+  </div>
+  
+  <div class="actions">
+    <%= f.submit comment.parent_id ? '回复' : '发表评论' %>
+  </div>
+<% end %>

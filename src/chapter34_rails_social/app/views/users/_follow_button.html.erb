@@ -1,0 +1,37 @@
+<!-- 用户卡片组件（含关注按钮） -->
+<!-- 用于用户列表和用户个人页面 -->
+<div class="user-card" data-user-id="<%= user.id %>">
+  <div class="user-avatar">
+    <%= image_tag user.avatar_url, alt: user.username if user.avatar_url %>
+  </div>
+
+  <div class="user-info">
+    <h3><%= link_to user.username, user %></h3>
+    <p class="user-bio"><%= user.bio %></p>
+
+    <div class="user-stats">
+      <span><%= user.following_count %> 关注</span>
+      <span><%= user.followers_count %> 粉丝</span>
+    </div>
+  </div>
+
+  <div class="user-actions">
+    <% if current_user && current_user != user %>
+      <% if current_user.following?(user) %>
+        <%= button_to '取消关注',
+                      user_follow_path(user),
+                      method: :delete,
+                      class: 'btn btn-outline',
+                      form: { data: { turbo: false } } %>
+      <% else %>
+        <%= button_to '关注',
+                      user_follow_path(user),
+                      method: :post,
+                      class: 'btn btn-primary',
+                      form: { data: { turbo: false } } %>
+      <% end %>
+    <% elsif current_user == user %>
+      <span class="current-user-badge">自己</span>
+    <% end %>
+  </div>
+</div>

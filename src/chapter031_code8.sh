@@ -1,0 +1,1 @@
+rails generate scaffold Post title:string body:text user:references

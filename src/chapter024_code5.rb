@@ -1,0 +1,1 @@
+guess = gets.chomp.to_i  # 读取 → 去换行 → 转整数，三步合一

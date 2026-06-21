@@ -1,0 +1,29 @@
+<%# app/views/sessions/new.html.erb %>
+<%# 登录表单：简洁清晰的认证入口 %>
+
+<h1>登录</h1>
+
+<%# flash alert 用于显示认证失败信息 %>
+<% if flash[:alert] %>
+  <div style="color: red;"><%= flash[:alert] %></div>
+<% end %>
+
+<%= form_with url: session_path, method: :post do |f| %>
+  <div>
+    <%= f.label :email, "邮箱" %>
+    <%= f.email_field :email, required: true, autofocus: true %>
+  </div>
+
+  <div>
+    <%= f.label :password, "密码" %>
+    <%= f.password_field :password, required: true %>
+  </div>
+
+  <div>
+    <%= f.submit "登录" %>
+  </div>
+<% end %>
+
+<p>
+  还没有账号？<%= link_to "立即注册", signup_path %>
+</p>

@@ -1,0 +1,38 @@
+<%# app/views/comments/_comment.html.erb %>
+<%# 局部模板接收本地 comment 变量 %>
+<div class="comment" style="margin-left: <%= comment.depth * 20 %>px;">
+  <div class="comment-header">
+    <span class="author"><%= comment.user.name %></span>
+    <span class="time"><%= time_ago_in_words(comment.created_at) %>前</span>
+  </div>
+  
+  <div class="comment-body">
+    <p><%= comment.content %></p>
+  </div>
+  
+  <div class="comment-actions">
+    <%# 回复按钮，指向回复表单 %>
+    <%= link_to '回复', 
+        reply_comment_path(comment), 
+        class: 'reply-btn' %>
+    
+    <%# 点赞按钮 %>
+    <%= button_to '赞',
+        likes_toggle_path(likeable_type: 'Comment', likeable_id: comment.id),
+        method: :post,
+        class: 'like-btn',
+        data: { 
+          like_target: 'button',
+          likeable_type: 'Comment',
+          likeable_id: comment.id
+        } %>
+    <span class="like-count"><%= comment.likes.count %></span>
+  </div>
+  
+  <%# 渲染直接子回复 %>
+  <% if comment.replies.any? %>
+    <div class="replies">
+      <%= render comment.replies %>
+    </div>
+  <% end %>
+</div>

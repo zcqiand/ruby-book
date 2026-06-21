@@ -1,0 +1,1 @@
+user_name = params[:name] || "匿名用户"

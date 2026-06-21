@@ -1,0 +1,41 @@
+# /etc/nginx/sites-available/myapp
+# 为什么：Nginx 作为反向代理，接收公网请求后转发给 Puma
+# 这样 Nginx 处理静态文件（CSS/JS/图片），动态请求透明地转发给 Rails
+
+upstream myapp_puma {
+  # 为什么：Unix socket 比 TCP 更快，适合同机器通信
+  # 注意：这个路径必须与 Puma 配置中的 PUMA_SOCKET 一致
+  server unix://PATH_TO_YOUR_APP/shared/sockets/puma.sock fail_timeout=0;
+}
+
+server {
+  listen 80;
+  server_name your_domain.com;  # 替换为你的域名或公网IP
+
+  # 为什么：Nginx 处理静态文件，绕过后端 Rails，响应更快
+  location /assets {
+    alias /PATH_TO_YOUR_APP/public/assets;
+    expires 1y;
+    add_header Cache-Control "public, immutable";
+  }
+
+  # 为什么：/uploads 等用户上传目录也由 Nginx 直接服务
+  location /uploads {
+    alias /PATH_TO_YOUR_APP/public/uploads;
+    expires 1y;
+  }
+
+  # 为什么：所有其他请求转发给 Puma
+  location / {
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header X-Forwarded-Proto $scheme;
+    proxy_set_header Host $http_host;
+    proxy_redirect off;
+
+    # 为什么：Puma 长时间不响应时返回 504，避免用户一直等待
+    proxy_read_timeout 60;
+    proxy_send_timeout 60;
+
+    proxy_pass http://myapp_puma;
+  }
+}

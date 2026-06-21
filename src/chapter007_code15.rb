@@ -1,0 +1,1 @@
+puts "欢迎，#{name.empty? ? '游客' : name}"

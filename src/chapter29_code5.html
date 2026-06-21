@@ -1,0 +1,12 @@
+<!-- new.erb — 新建文章表单 -->
+<!-- 新建只需要 POST，无需 _method -->
+
+<form action="/articles" method="post">
+  <label for="title">标题：</label>
+  <input type="text" id="title" name="title" required>
+
+  <label for="content">内容：</label>
+  <textarea id="content" name="content" rows="10" required></textarea>
+
+  <button type="submit">发布文章</button>
+</form>

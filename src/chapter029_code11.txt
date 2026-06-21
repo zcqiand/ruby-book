@@ -1,0 +1,17 @@
+<!-- views/show.erb — 文章详情页 -->
+<article>
+  <h1><%= @article.title %></h1>
+  <time>发布于 <%= @article.created_at.strftime('%Y-%m-%d %H:%M') %></time>
+  <hr>
+  <div><%= @article.content %></div>
+</article>
+
+<nav>
+  <a href="/articles/<%= @article.id %>/edit">编辑</a>
+  |
+  <!-- 删除按钮：POST + _method="delete" 模拟 DELETE -->
+  <form action="/articles/<%= @article.id %>" method="post" style="display:inline;">
+    <input type="hidden" name="_method" value="delete">
+    <button type="submit" onclick="return confirm('确定要删除这篇文章吗？')">删除</button>
+  </form>
+</nav>

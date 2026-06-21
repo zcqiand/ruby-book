@@ -1,0 +1,42 @@
+<%# app/views/posts/show.html.erb %>
+<article class="post" data-controller="like">
+  <header>
+    <h1><%= @post.title %></h1>
+    <div class="meta">
+      <span>发布者：<%= @post.user.name %></span>
+      <span>发布于：<%= time_ago_in_words(@post.created_at) %>前</span>
+      <span>评论数：<%= @post.comments_count %></span>
+    </div>
+  </header>
+  
+  <div class="content">
+    <%= simple_format(@post.content) %>
+  </div>
+  
+  <footer>
+    <%# 点赞按钮，使用 data 属性传递参数给 Stimulus 控制器 %>
+    <%= button_to '点赞',
+        likes_toggle_path(likeable_type: 'Post', likeable_id: @post.id),
+        method: :post,
+        class: 'like-btn',
+        data: { 
+          like_target: 'button',
+          likeable_type: 'Post',
+          likeable_id: @post.id
+        } %>
+    <span class="like-count"><%= @post.likes.count %> 赞</span>
+  </footer>
+</article>
+
+<section class="comments">
+  <h2>评论 (<%= @post.comments_count %>)</h2>
+  
+  <%# 渲染顶级评论（parent_id 为 nil），嵌套回复由 partial 内部递归渲染 %>
+  <%= render @post.comments.where(parent_id: nil).order(created_at: :asc) %>
+  
+  <%# 新评论表单 %>
+  <div class="new-comment">
+    <h3>发表评论</h3>
+    <%= render 'comments/form', comment: @comment, post: @post %>
+  </div>
+</section>

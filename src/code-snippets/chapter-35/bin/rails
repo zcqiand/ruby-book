@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# bin/rails
+# Rails 命令行入口脚本
+APP_PATH = File.expand_path('../config/application', __dir__)
+require_relative "../config/boot"
+require "rails/commands"

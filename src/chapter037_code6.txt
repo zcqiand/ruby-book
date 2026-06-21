@@ -1,0 +1,4 @@
+签名 = HMAC-SHA256(
+  "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxMjMs...",
+  "服务端秘钥"
+)

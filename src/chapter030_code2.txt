@@ -1,0 +1,13 @@
+<article class="article-item">
+  <h2><%= article.title %></h2>
+  <p class="meta">
+    <time datetime="<%= article.created_at.iso8601 %>">
+      <%= article.created_at.strftime('%Y-%m-%d') %>
+    </time>
+  </p>
+  <p class="excerpt"><%= truncate(article.body, length: 100) %></p>
+  <div class="actions">
+    <a href="/articles/<%= article.id %>">阅读全文</a>
+    <a href="/articles/<%= article.id %>/edit">编辑</a>
+  </div>
+</article>

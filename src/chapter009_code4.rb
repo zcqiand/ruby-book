@@ -1,0 +1,1 @@
+say_hello    # 输出: Hello, Ruby!

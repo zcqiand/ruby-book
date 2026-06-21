@@ -1,0 +1,16 @@
+<!-- views/index.erb — 文章列表页 -->
+<h1>博客文章</h1>
+
+<% if @articles.empty? %>
+  <p>还没有文章，<a href="/articles/new">写第一篇</a>吧！</p>
+<% else %>
+  <ul>
+    <% @articles.each do |article| %>
+      <li>
+        <a href="/articles/<%= article.id %>"><%= article.title %></a>
+        <time>(<%= article.created_at.strftime('%Y-%m-%d') %>)</time>
+        — <%= article.summary %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

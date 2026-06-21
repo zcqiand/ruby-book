@@ -1,0 +1,1 @@
+"Hello, Ruby!".match(/Ruby/)   # 返回 MatchData 对象

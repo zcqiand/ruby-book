@@ -1,0 +1,1 @@
+rails new social-app --skip-git --skip-action-mailer --skip-action-mailbox

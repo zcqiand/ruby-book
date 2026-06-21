@@ -1,0 +1,1 @@
+json_string = JSON.pretty_generate(array)

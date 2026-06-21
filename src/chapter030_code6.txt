@@ -1,0 +1,18 @@
+<form action="<%= request.path %>" method="post" class="blog-form">
+  <div class="form-group">
+    <label for="title">标题</label>
+    <input type="text" id="title" name="article[title]"
+           value="<%= @article&.title || '' %>" required>
+  </div>
+
+  <div class="form-group">
+    <label for="body">正文</label>
+    <textarea id="body" name="article[body]" rows="10" required>
+      <%= @article&.body || '' %>
+    </textarea>
+  </div>
+
+  <button type="submit" class="btn-primary">
+    <%= @article ? '保存修改' : '发布文章' %>
+  </button>
+</form>

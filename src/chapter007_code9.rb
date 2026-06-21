@@ -1,0 +1,1 @@
+puts "数据加载失败" unless success

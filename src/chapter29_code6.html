@@ -1,0 +1,18 @@
+<!-- show.erb — 文章详情页（包含删除按钮） -->
+<!-- 删除按钮同样用 POST + _method="delete" 模拟 DELETE 请求 -->
+
+<article>
+  <h1><%= @article.title %></h1>
+  <time>发布于 <%= @article.created_at.strftime('%Y-%m-%d %H:%M') %></time>
+  <div><%= @article.content %></div>
+</article>
+
+<!-- 操作按钮 -->
+<nav>
+  <a href="/articles/<%= @article.id %>/edit">编辑</a>
+  |
+  <form action="/articles/<%= @article.id %>" method="post" style="display:inline;">
+    <input type="hidden" name="_method" value="delete">
+    <button type="submit" onclick="return confirm('确定要删除这篇文章吗？')">删除</button>
+  </form>
+</nav>

@@ -1,0 +1,1 @@
+your_object.some_method  # 调用的其实是 YourClass 的单例方法
