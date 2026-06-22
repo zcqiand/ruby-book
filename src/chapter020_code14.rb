@@ -1,1 +1,0 @@
-gem "mysql2", platforms: [:ruby, :mingw, :mswin]

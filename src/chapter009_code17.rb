@@ -13,10 +13,10 @@ def calculator(*values, operation: :+, initial: nil)
   # operation 是符号（:+/:-/:*/:/），对应 Proc 或 lambda
   # 相比 case/when 分支，字典查表更快且扩展新操作只需加映射
   ops = {
-    +: -> a, b { a + b },
-    -: -> a, b { a - b },
-    *: -> a, b { a * b },
-    /: -> a, b { b != 0 ? a.to_f / b : Float::NAN }  # 防止除零崩溃
+    :+ => ->(a, b) { a + b },
+    :- => ->(a, b) { a - b },
+    :* => ->(a, b) { a * b },
+    /:/ => ->(a, b) { b != 0 ? a.to_f / b : Float::NAN }  # 防止除零崩溃
   }
 
   # fetch 操作符安全获取映射，默认返回报错 Proc（触发 ArgumentError）

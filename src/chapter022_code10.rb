@@ -112,7 +112,7 @@ def load_manager
     data = JSON.parse(File.read(DATA_FILE))
     manager.load_from_array(data)
   rescue JSON::ParserError
-    puts "⚠️  数据文件损坏，将重新开始"
+    puts "警告: 数据文件损坏，将重新开始"
   end
   manager
 end
@@ -124,10 +124,10 @@ end
 def with_error_handling
   yield
 rescue ArgumentError => e
-  puts "❌ #{e.message}"
+  puts "错误: #{e.message}"
   exit 1
 rescue => e
-  puts "❌ 未知错误: #{e.class} - #{e.message}"
+  puts "错误: 未知错误: #{e.class} - #{e.message}"
   exit 1
 end
 
@@ -140,20 +140,20 @@ if __FILE__ == $0
   when 'add'
     with_error_handling do
       unless argument && !argument.empty?
-        puts "❌ 请提供任务描述"
+        puts "错误: 请提供任务描述"
         exit 1
       end
       manager = load_manager
       task = manager.add(argument)
       save_manager(manager)
-      puts "✅ 已添加任务: #{task}"
+      puts "已添加任务: #{task}"
     end
 
   when 'list'
     with_error_handling do
       manager = load_manager
       manager.list
-      puts "\n📊 统计: 共#{manager.count}个任务，#{manager.pending_tasks.size}待办"
+      puts "\n统计: 共#{manager.count}个任务，#{manager.pending_tasks.size}待办"
     end
 
   when 'done'
@@ -162,7 +162,7 @@ if __FILE__ == $0
       manager = load_manager
       task = manager.done(id)
       save_manager(manager)
-      puts "✅ 已完成: #{task}"
+      puts "已完成: #{task}"
     end
 
   when 'delete'
@@ -171,11 +171,11 @@ if __FILE__ == $0
       manager = load_manager
       task = manager.delete(id)
       save_manager(manager)
-      puts "🗑️  已删除: #{task}"
+      puts "已删除: #{task}"
     end
 
   else
-    puts "❌ 未知命令: #{command}"
+    puts "错误: 未知命令: #{command}"
     puts "输入 'ruby todo.rb --help' 查看帮助"
     exit 1
   end

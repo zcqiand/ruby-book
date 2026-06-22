@@ -55,17 +55,17 @@ puts "=== 自定义异常演示 ==="
 begin
   service.process_payment(100, card_number: '1234', balance: 1000)
 rescue InvalidCardError => e
-  puts "✗ #{e.message}"
+  puts "失败：#{e.message}"
 end
 
 begin
   service.process_payment(5000, card_number: '1111222233334444', balance: 1000)
 rescue InsufficientBalanceError => e
-  puts "✗ #{e.message}"
-  puts "  → 建议：充值 #{e.context[:required] - e.context[:balance]} 元"
+  puts "失败：#{e.message}"
+  puts "  建议：充值 #{e.context[:required] - e.context[:balance]} 元"
 end
 
 begin
   result = service.process_payment(100, card_number: '1111222233334444', balance: 1000)
-  puts "✓ 支付成功: #{result}"
+  puts "支付成功: #{result}"
 end

@@ -51,7 +51,7 @@ class Article
     content[0, 100] + '...'
   end
 
-  # 【本章新增】更新文章内容
+  # 更新文章内容
   # 为什么返回 self：方便链式调用，也符合 Ruby 的惯例
   def update(title:, content:)
     @title = title

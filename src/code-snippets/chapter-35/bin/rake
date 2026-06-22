@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-# bin/rake
-# Rake 任务执行入口脚本
-require_relative "../config/boot"
-require "rake"
-Rake.application.run

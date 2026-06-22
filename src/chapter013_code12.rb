@@ -38,7 +38,7 @@ end
 
 puts "共处理 #{file_count} 个文件，总计 #{total_lines} 行"
 
-# ===== 错误处理思路（简要提及，下一章详述） =====
+# ===== 错误处理思路 =====
 # 实际批处理中需要考虑：
 # - 文件不存在: File.exist? 检查
 # - 权限不足: rescue Errno::EACCES

@@ -1,1 +1,0 @@
-gem install rails -v 7.1.0

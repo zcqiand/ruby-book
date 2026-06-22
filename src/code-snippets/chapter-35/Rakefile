@@ -1,5 +1,0 @@
-# Rakefile
-# Rails 任务加载入口
-require_relative "config/application"
-
-Rails.application.load_tasks

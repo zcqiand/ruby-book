@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-# 场景：展示类的继承结构（为第16章铺垫）
-# 为什么要提前展示：继承是面向对象的重要概念
+# 场景：展示类的继承结构
+# 为什么要展示：继承是面向对象的重要概念
 
 class Animal
   def initialize(name)

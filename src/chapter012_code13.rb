@@ -100,7 +100,7 @@ date_texts = [
   "2024年1月1日"  # 中文格式，不匹配
 ]
 
-date_pattern = /(\d{4})[-/.](\d{1,2})[-/.](\d{1,2})/
+date_pattern = /(\d{4})[-\/.](\d{1,2})[-\/.](\d{1,2})/
 
 date_texts.each do |text|
   match = text.match(date_pattern)

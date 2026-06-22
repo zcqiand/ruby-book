@@ -1,1 +1,0 @@
-gem uninstall rails -v 7.1.0
