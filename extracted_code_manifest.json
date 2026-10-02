@@ -1,0 +1,4226 @@
+[
+  {
+    "title": "代码清单1-1: Docker 拉取并运行 Ruby 镜像",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 75,
+    "extracted_file": "src\\代码清单1-1_ Docker 拉取并运行 Ruby 镜像.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-2: 用 rbenv 安装并切换多版本",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 92,
+    "extracted_file": "src\\代码清单1-2_ 用 rbenv 安装并切换多版本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-3: 查看 Ruby 版本验证安装",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 109,
+    "extracted_file": "src\\代码清单1-3_ 查看 Ruby 版本验证安装.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-4: 启动 IRB 交互式环境",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 123,
+    "extracted_file": "src\\代码清单1-4_ 启动 IRB 交互式环境.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-5: 在 IRB 中输出 Hello World",
+    "lang": "ruby",
+    "chapter_file": "chapter-001.md",
+    "line": 148,
+    "extracted_file": "src\\代码清单1-5_ 在 IRB 中输出 Hello World.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单1-6: 保存首个程序到 hello.rb",
+    "lang": "ruby",
+    "chapter_file": "chapter-001.md",
+    "line": 158,
+    "extracted_file": "src\\代码清单1-6_ 保存首个程序到 hello.rb.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单1-7: 命令行运行 Ruby 脚本",
+    "lang": "bash",
+    "chapter_file": "chapter-001.md",
+    "line": 164,
+    "extracted_file": "src\\代码清单1-7_ 命令行运行 Ruby 脚本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单1-8: puts、print、p 输出对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-001.md",
+    "line": 178,
+    "extracted_file": "src\\代码清单1-8_ puts、print、p 输出对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单1-9: 字符串插值与常用特性演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-001.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单1-9_ 字符串插值与常用特性演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-1: Java 声明变量需指定类型",
+    "lang": "java",
+    "chapter_file": "chapter-002.md",
+    "line": 11,
+    "extracted_file": "src\\代码清单2-1_ Java 声明变量需指定类型.java",
+    "source": null
+  },
+  {
+    "title": "代码清单2-2: Ruby 直接赋值免声明类型",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 24,
+    "extracted_file": "src\\代码清单2-2_ Ruby 直接赋值免声明类型.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-3: 同一变量先后存不同类型",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 33,
+    "extracted_file": "src\\代码清单2-3_ 同一变量先后存不同类型.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-4: 整数也是对象可调用方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 55,
+    "extracted_file": "src\\代码清单2-4_ 整数也是对象可调用方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-5: 局部变量只在方法内有效",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 74,
+    "extracted_file": "src\\代码清单2-5_ 局部变量只在方法内有效.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-6: 实例变量保存对象自有状态",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 90,
+    "extracted_file": "src\\代码清单2-6_ 实例变量保存对象自有状态.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-7: 类变量被所有实例共享",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单2-7_ 类变量被所有实例共享.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-8: 全局变量程序内随处可读写",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 139,
+    "extracted_file": "src\\代码清单2-8_ 全局变量程序内随处可读写.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-9: 常量定义与重复赋值警告",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 168,
+    "extracted_file": "src\\代码清单2-9_ 常量定义与重复赋值警告.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-10: 任意精度大整数运算",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 185,
+    "extracted_file": "src\\代码清单2-10_ 任意精度大整数运算.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-11: 整数的四种进制写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单2-11_ 整数的四种进制写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-12: 浮点数加法的精度陷阱",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 201,
+    "extracted_file": "src\\代码清单2-12_ 浮点数加法的精度陷阱.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-13: 四种变量作用域对比演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 217,
+    "extracted_file": "src\\代码清单2-13_ 四种变量作用域对比演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-14: 动态类型运行时演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 293,
+    "extracted_file": "src\\代码清单2-14_ 动态类型运行时演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-15: 整数与浮点数运算对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 344,
+    "extracted_file": "src\\代码清单2-15_ 整数与浮点数运算对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单2-16: 登录状态变量选型思考题",
+    "lang": "ruby",
+    "chapter_file": "chapter-002.md",
+    "line": 403,
+    "extracted_file": "src\\代码清单2-16_ 登录状态变量选型思考题.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-1: 其他语言拼接字符串的写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 7,
+    "extracted_file": "src\\代码清单3-1_ 其他语言拼接字符串的写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-2: 单引号与双引号创建字符串",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 22,
+    "extracted_file": "src\\代码清单3-2_ 单引号与双引号创建字符串.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-3: 单双引号对转义插值的差异",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 36,
+    "extracted_file": "src\\代码清单3-3_ 单双引号对转义插值的差异.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-4: 双引号字符串中插入变量",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 58,
+    "extracted_file": "src\\代码清单3-4_ 双引号字符串中插入变量.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-5: 插值中执行表达式运算",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 67,
+    "extracted_file": "src\\代码清单3-5_ 插值中执行表达式运算.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-6: 插值组合多个变量与表达式",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单3-6_ 插值组合多个变量与表达式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-7: 换行制表符与路径转义示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 111,
+    "extracted_file": "src\\代码清单3-7_ 换行制表符与路径转义示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-8: 常用转义字符与 %q 原样输出",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 132,
+    "extracted_file": "src\\代码清单3-8_ 常用转义字符与 %q 原样输出.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-9: 大小写转换四种方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 160,
+    "extracted_file": "src\\代码清单3-9_ 大小写转换四种方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-10: 大小写转换与去空格联用",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 169,
+    "extracted_file": "src\\代码清单3-10_ 大小写转换与去空格联用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-11: strip 去除首尾空白",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 186,
+    "extracted_file": "src\\代码清单3-11_ strip 去除首尾空白.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-12: 查找替换分割与重复",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 197,
+    "extracted_file": "src\\代码清单3-12_ 查找替换分割与重复.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-13: 判断 URL 前后缀与正则匹配",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 215,
+    "extracted_file": "src\\代码清单3-13_ 判断 URL 前后缀与正则匹配.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-14: sub 替换首个 gsub 全局替换",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 230,
+    "extracted_file": "src\\代码清单3-14_ sub 替换首个 gsub 全局替换.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-15: split 分割与 join 连接",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 244,
+    "extracted_file": "src\\代码清单3-15_ split 分割与 join 连接.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-16: 加号拼接与 << 追加对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 260,
+    "extracted_file": "src\\代码清单3-16_ 加号拼接与 __ 追加对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-17: 求长度与按范围截取子串",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 276,
+    "extracted_file": "src\\代码清单3-17_ 求长度与按范围截取子串.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-18: 中文字符的长度与字节数",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 285,
+    "extracted_file": "src\\代码清单3-18_ 中文字符的长度与字节数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-19: 方法链清洗用户输入",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 312,
+    "extracted_file": "src\\代码清单3-19_ 方法链清洗用户输入.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-20: 多方法链式组合处理",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 327,
+    "extracted_file": "src\\代码清单3-20_ 多方法链式组合处理.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-21: 链式调用格式化电话号码",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 337,
+    "extracted_file": "src\\代码清单3-21_ 链式调用格式化电话号码.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-22: 注册用户名清洗与验证",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 361,
+    "extracted_file": "src\\代码清单3-22_ 注册用户名清洗与验证.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-23: 拼接格式化日志条目",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 381,
+    "extracted_file": "src\\代码清单3-23_ 拼接格式化日志条目.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-24: 判断扩展名并提取文件名",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 394,
+    "extracted_file": "src\\代码清单3-24_ 判断扩展名并提取文件名.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单3-25: 字符串转数字与进制转换",
+    "lang": "ruby",
+    "chapter_file": "chapter-003.md",
+    "line": 412,
+    "extracted_file": "src\\代码清单3-25_ 字符串转数字与进制转换.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-1: if 判断也是表达式",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 23,
+    "extracted_file": "src\\代码清单4-1_ if 判断也是表达式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-2: 整数除法与浮点除法差异",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 47,
+    "extracted_file": "src\\代码清单4-2_ 整数除法与浮点除法差异.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-3: 取模运算结果符号规则",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 73,
+    "extracted_file": "src\\代码清单4-3_ 取模运算结果符号规则.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-4: 幂运算与负号的优先级",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单4-4_ 幂运算与负号的优先级.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-5: 复合赋值运算符示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 90,
+    "extracted_file": "src\\代码清单4-5_ 复合赋值运算符示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-6: == 比较值而非内存地址",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 126,
+    "extracted_file": "src\\代码清单4-6_ == 比较值而非内存地址.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-7: 数值比较运算符用法",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 135,
+    "extracted_file": "src\\代码清单4-7_ 数值比较运算符用法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-8: 逻辑与或非组合条件",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 152,
+    "extracted_file": "src\\代码清单4-8_ 逻辑与或非组合条件.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-9: 短路求值设置默认值",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 170,
+    "extracted_file": "src\\代码清单4-9_ 短路求值设置默认值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-10: ||= 条件赋值默认值",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 181,
+    "extracted_file": "src\\代码清单4-10_ __= 条件赋值默认值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-11: and 与 && 优先级陷阱",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单4-11_ and 与 && 优先级陷阱.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-12: === 匹配范围正则与类",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 220,
+    "extracted_file": "src\\代码清单4-12_ === 匹配范围正则与类.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-13: === 判断的不对称性",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 240,
+    "extracted_file": "src\\代码清单4-13_ === 判断的不对称性.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-14: case/when 成绩评级",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 249,
+    "extracted_file": "src\\代码清单4-14_ case_when 成绩评级.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-15: 运算符优先级求值顺序",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 291,
+    "extracted_file": "src\\代码清单4-15_ 运算符优先级求值顺序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-16: 幂运算的右结合性",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 302,
+    "extracted_file": "src\\代码清单4-16_ 幂运算的右结合性.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单4-17: 一元负号与幂的优先级",
+    "lang": "ruby",
+    "chapter_file": "chapter-004.md",
+    "line": 311,
+    "extracted_file": "src\\代码清单4-17_ 一元负号与幂的优先级.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-1: 数组就像有序的抽屉柜",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 24,
+    "extracted_file": "src\\代码清单5-1_ 数组就像有序的抽屉柜.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-2: 创建数组的多种方式",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单5-2_ 创建数组的多种方式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-3: 正负索引与切片访问",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 83,
+    "extracted_file": "src\\代码清单5-3_ 正负索引与切片访问.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-4: each 基础遍历数组",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 110,
+    "extracted_file": "src\\代码清单5-4_ each 基础遍历数组.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-5: each 变体与流程控制",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 123,
+    "extracted_file": "src\\代码清单5-5_ each 变体与流程控制.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-6: map 对每个元素做变换",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 159,
+    "extracted_file": "src\\代码清单5-6_ map 对每个元素做变换.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-7: select 筛选满足条件的元素",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 166,
+    "extracted_file": "src\\代码清单5-7_ select 筛选满足条件的元素.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-8: reject 排除满足条件元素",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 174,
+    "extracted_file": "src\\代码清单5-8_ reject 排除满足条件元素.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-9: find 返回首个匹配元素",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 181,
+    "extracted_file": "src\\代码清单5-9_ find 返回首个匹配元素.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-10: 枚举方法链式流水线",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单5-10_ 枚举方法链式流水线.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-11: 数据处理管道综合示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 208,
+    "extracted_file": "src\\代码清单5-11_ 数据处理管道综合示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-12: sort 与 sort_by 排序",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 254,
+    "extracted_file": "src\\代码清单5-12_ sort 与 sort_by 排序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-13: 数组添加元素的多种方式",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 306,
+    "extracted_file": "src\\代码清单5-13_ 数组添加元素的多种方式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-14: 数组删除元素与去重",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 322,
+    "extracted_file": "src\\代码清单5-14_ 数组删除元素与去重.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-15: 按索引修改数组元素",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 343,
+    "extracted_file": "src\\代码清单5-15_ 按索引修改数组元素.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-16: 查询包含索引与计数",
+    "lang": "ruby",
+    "chapter_file": "chapter-005.md",
+    "line": 355,
+    "extracted_file": "src\\代码清单5-16_ 查询包含索引与计数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单5-17: 运行 Ruby 代码的三种方式",
+    "lang": "bash",
+    "chapter_file": "chapter-005.md",
+    "line": 378,
+    "extracted_file": "src\\代码清单5-17_ 运行 Ruby 代码的三种方式.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单6-1: 数组索引与哈希键访问对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 13,
+    "extracted_file": "src\\代码清单6-1_ 数组索引与哈希键访问对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-2: 哈希的三种创建方式与空哈希",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 45,
+    "extracted_file": "src\\代码清单6-2_ 哈希的三种创建方式与空哈希.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-3: 字符串键与符号键两种写法对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 72,
+    "extracted_file": "src\\代码清单6-3_ 字符串键与符号键两种写法对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-4: 字符串键与符号键的对象id对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 84,
+    "extracted_file": "src\\代码清单6-4_ 字符串键与符号键的对象id对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-5: 哈希的增删改查与键存在性判断",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 109,
+    "extracted_file": "src\\代码清单6-5_ 哈希的增删改查与键存在性判断.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-6: Hash.new默认值与nil陷阱",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 133,
+    "extracted_file": "src\\代码清单6-6_ Hash.new默认值与nil陷阱.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-7: 哈希遍历与select、reject筛选",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 150,
+    "extracted_file": "src\\代码清单6-7_ 哈希遍历与select、reject筛选.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-8: merge合并哈希与键冲突块处理",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 183,
+    "extracted_file": "src\\代码清单6-8_ merge合并哈希与键冲突块处理.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-9: select与reject筛选嵌套哈希并链式变换",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 205,
+    "extracted_file": "src\\代码清单6-9_ select与reject筛选嵌套哈希并链式变换.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-10: 数组解构与哈希值提取的四种方式",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 233,
+    "extracted_file": "src\\代码清单6-10_ 数组解构与哈希值提取的四种方式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-11: 用dig从嵌套哈希中提取数据",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 263,
+    "extracted_file": "src\\代码清单6-11_ 用dig从嵌套哈希中提取数据.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-12: 提取哈希的键、值与键值对数组",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 278,
+    "extracted_file": "src\\代码清单6-12_ 提取哈希的键、值与键值对数组.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-13: 变换哈希的所有键与值",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 288,
+    "extracted_file": "src\\代码清单6-13_ 变换哈希的所有键与值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-14: 用partition按条件分组哈希",
+    "lang": "ruby",
+    "chapter_file": "chapter-006.md",
+    "line": 300,
+    "extracted_file": "src\\代码清单6-14_ 用partition按条件分组哈希.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单6-15: 运行Ruby脚本的三种方式",
+    "lang": "bash",
+    "chapter_file": "chapter-006.md",
+    "line": 312,
+    "extracted_file": "src\\代码清单6-15_ 运行Ruby脚本的三种方式.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单7-1: if语句的基本语法结构",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 15,
+    "extracted_file": "src\\代码清单7-1_ if语句的基本语法结构.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-2: 用三个if语句模拟穿衣选择",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 23,
+    "extracted_file": "src\\代码清单7-2_ 用三个if语句模拟穿衣选择.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-3: if、elsif、else多分支判断",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 45,
+    "extracted_file": "src\\代码清单7-3_ if、elsif、else多分支判断.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-4: 多个elsif处理成绩等级",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 61,
+    "extracted_file": "src\\代码清单7-4_ 多个elsif处理成绩等级.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-5: 后缀if的单行条件写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 79,
+    "extracted_file": "src\\代码清单7-5_ 后缀if的单行条件写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-6: unless语句的基本用法",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 89,
+    "extracted_file": "src\\代码清单7-6_ unless语句的基本用法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-7: unless配合else的双分支",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单7-7_ unless配合else的双分支.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-8: if not与unless写法对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 115,
+    "extracted_file": "src\\代码清单7-8_ if not与unless写法对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-9: 后缀unless的单行否定条件",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 136,
+    "extracted_file": "src\\代码清单7-9_ 后缀unless的单行否定条件.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-10: case、when按值匹配分支",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 148,
+    "extracted_file": "src\\代码清单7-10_ case、when按值匹配分支.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-11: case配合范围判断成绩等级",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 171,
+    "extracted_file": "src\\代码清单7-11_ case配合范围判断成绩等级.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-12: 单个when匹配多个值",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 211,
+    "extracted_file": "src\\代码清单7-12_ 单个when匹配多个值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-13: case表达式返回值赋给变量",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 228,
+    "extracted_file": "src\\代码清单7-13_ case表达式返回值赋给变量.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-14: 三元运算符的二选一赋值",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 245,
+    "extracted_file": "src\\代码清单7-14_ 三元运算符的二选一赋值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-15: 三元运算符内联判断欢迎语",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 255,
+    "extracted_file": "src\\代码清单7-15_ 三元运算符内联判断欢迎语.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-16: 嵌套三元运算符的反面示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 261,
+    "extracted_file": "src\\代码清单7-16_ 嵌套三元运算符的反面示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-17: if表达式作为返回值赋值",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 273,
+    "extracted_file": "src\\代码清单7-17_ if表达式作为返回值赋值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单7-18: 用短路或设置默认值",
+    "lang": "ruby",
+    "chapter_file": "chapter-007.md",
+    "line": 285,
+    "extracted_file": "src\\代码清单7-18_ 用短路或设置默认值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-1: while循环的基本语法",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 25,
+    "extracted_file": "src\\代码清单8-1_ while循环的基本语法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-2: until循环的基本语法",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单8-2_ until循环的基本语法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-3: 用while从1数到5",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 45,
+    "extracted_file": "src\\代码清单8-3_ 用while从1数到5.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-4: 用until从1数到5",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 55,
+    "extracted_file": "src\\代码清单8-4_ 用until从1数到5.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-5: 用until循环等待有效输入",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 67,
+    "extracted_file": "src\\代码清单8-5_ 用until循环等待有效输入.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-6: 用times迭代器固定次数循环",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单8-6_ 用times迭代器固定次数循环.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-7: upto与downto上下行计数",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单8-7_ upto与downto上下行计数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-8: 用upto计算1到100的和",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单8-8_ 用upto计算1到100的和.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-9: 用step指定步长迭代数值",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 118,
+    "extracted_file": "src\\代码清单8-9_ 用step指定步长迭代数值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-10: for...in循环的基本语法",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 136,
+    "extracted_file": "src\\代码清单8-10_ for...in循环的基本语法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-11: for循环与each的等价实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 144,
+    "extracted_file": "src\\代码清单8-11_ for循环与each的等价实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-12: loop do无限循环结构",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 168,
+    "extracted_file": "src\\代码清单8-12_ loop do无限循环结构.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-13: 用break在达到上限后退出循环",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 178,
+    "extracted_file": "src\\代码清单8-13_ 用break在达到上限后退出循环.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-14: break带返回值作为loop结果",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单8-14_ break带返回值作为loop结果.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-15: 用next跳过偶数只打印奇数",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 207,
+    "extracted_file": "src\\代码清单8-15_ 用next跳过偶数只打印奇数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-16: next过滤不满足条件的数后求和",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 218,
+    "extracted_file": "src\\代码清单8-16_ next过滤不满足条件的数后求和.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-17: 用retry模拟失败重试",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 232,
+    "extracted_file": "src\\代码清单8-17_ 用retry模拟失败重试.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-18: 闭区间与半开区间的each遍历",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 258,
+    "extracted_file": "src\\代码清单8-18_ 闭区间与半开区间的each遍历.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-19: 遍历1到100的最简写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 274,
+    "extracted_file": "src\\代码清单8-19_ 遍历1到100的最简写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-20: until处理次数未知的等待场景",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 288,
+    "extracted_file": "src\\代码清单8-20_ until处理次数未知的等待场景.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-21: 迭代器表达已知次数的迭代",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 299,
+    "extracted_file": "src\\代码清单8-21_ 迭代器表达已知次数的迭代.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单8-22: 综合运用循环筛选100以内素数",
+    "lang": "ruby",
+    "chapter_file": "chapter-008.md",
+    "line": 313,
+    "extracted_file": "src\\代码清单8-22_ 综合运用循环筛选100以内素数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-1: 无方法版本的重复计算逻辑",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 18,
+    "extracted_file": "src\\代码清单9-1_ 无方法版本的重复计算逻辑.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-2: 复制粘贴应对需求变化的困境",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 39,
+    "extracted_file": "src\\代码清单9-2_ 复制粘贴应对需求变化的困境.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-3: 定义第一个无参数方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 74,
+    "extracted_file": "src\\代码清单9-3_ 定义第一个无参数方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-4: 按名称调用方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单9-4_ 按名称调用方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-5: 方法定义与调用的完整示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 87,
+    "extracted_file": "src\\代码清单9-5_ 方法定义与调用的完整示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-6: 带位置参数的方法定义与调用",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单9-6_ 带位置参数的方法定义与调用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-7: 参数默认值与省略传参",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 147,
+    "extracted_file": "src\\代码清单9-7_ 参数默认值与省略传参.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-8: 默认参数的幂运算示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 161,
+    "extracted_file": "src\\代码清单9-8_ 默认参数的幂运算示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-9: 用可变参数实现任意个数求和",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单9-9_ 用可变参数实现任意个数求和.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-10: 可变参数配合inject与求平均值",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 216,
+    "extracted_file": "src\\代码清单9-10_ 可变参数配合inject与求平均值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-11: 关键字参数实现格式化输出",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 260,
+    "extracted_file": "src\\代码清单9-11_ 关键字参数实现格式化输出.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-12: 关键字参数收集与必需参数校验",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 281,
+    "extracted_file": "src\\代码清单9-12_ 关键字参数收集与必需参数校验.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-13: 隐式返回最后表达式的值",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 335,
+    "extracted_file": "src\\代码清单9-13_ 隐式返回最后表达式的值.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-14: 显式return提前退出方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 352,
+    "extracted_file": "src\\代码清单9-14_ 显式return提前退出方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-15: 显式隐式返回与多值返回",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 369,
+    "extracted_file": "src\\代码清单9-15_ 显式隐式返回与多值返回.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-16: 计算器方法的定义与查表实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 418,
+    "extracted_file": "src\\代码清单9-16_ 计算器方法的定义与查表实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单9-17: 计算器方法的完整调用测试",
+    "lang": "ruby",
+    "chapter_file": "chapter-009.md",
+    "line": 443,
+    "extracted_file": "src\\代码清单9-17_ 计算器方法的完整调用测试.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-1: 块的do/end与大括号两种写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 27,
+    "extracted_file": "src\\代码清单10-1_ 块的do_end与大括号两种写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-2: 块参数声明与map变换",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 42,
+    "extracted_file": "src\\代码清单10-2_ 块参数声明与map变换.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-3: 用yield在方法内执行块",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 65,
+    "extracted_file": "src\\代码清单10-3_ 用yield在方法内执行块.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-4: yield向块传参并取回结果",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 87,
+    "extracted_file": "src\\代码清单10-4_ yield向块传参并取回结果.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-5: 用block_given?判断块是否存在",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单10-5_ 用block_given_判断块是否存在.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-6: 可选块在find_by中的实战",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 127,
+    "extracted_file": "src\\代码清单10-6_ 可选块在find_by中的实战.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-7: 创建Proc对象并用call执行",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 158,
+    "extracted_file": "src\\代码清单10-7_ 创建Proc对象并用call执行.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-8: 用数组存储多个Proc并批量应用",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 176,
+    "extracted_file": "src\\代码清单10-8_ 用数组存储多个Proc并批量应用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-9: lambda与箭头语法创建Lambda",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 202,
+    "extracted_file": "src\\代码清单10-9_ lambda与箭头语法创建Lambda.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-10: Proc与Lambda参数个数检查差异",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 219,
+    "extracted_file": "src\\代码清单10-10_ Proc与Lambda参数个数检查差异.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-11: Proc与Lambda的return行为差异",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 236,
+    "extracted_file": "src\\代码清单10-11_ Proc与Lambda的return行为差异.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-12: 闭包捕获变量实现计数器",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 271,
+    "extracted_file": "src\\代码清单10-12_ 闭包捕获变量实现计数器.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-13: 闭包实现多级别日志函数",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 287,
+    "extracted_file": "src\\代码清单10-13_ 闭包实现多级别日志函数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-14: 用&block显式接收并调用块",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 308,
+    "extracted_file": "src\\代码清单10-14_ 用&block显式接收并调用块.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-15: 块的显式转发与多次调用",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 324,
+    "extracted_file": "src\\代码清单10-15_ 块的显式转发与多次调用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-16: Rails模型回调中的块应用",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 356,
+    "extracted_file": "src\\代码清单10-16_ Rails模型回调中的块应用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-17: 基于块的map、select、reduce迭代",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 374,
+    "extracted_file": "src\\代码清单10-17_ 基于块的map、select、reduce迭代.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-18: 高阶函数实现函数组合",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 391,
+    "extracted_file": "src\\代码清单10-18_ 高阶函数实现函数组合.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单10-19: 第10章完整可运行示例汇编",
+    "lang": "ruby",
+    "chapter_file": "chapter-010.md",
+    "line": 418,
+    "extracted_file": "src\\代码清单10-19_ 第10章完整可运行示例汇编.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-1: 对比String与Symbol的对象id",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 20,
+    "extracted_file": "src\\代码清单11-1_ 对比String与Symbol的对象id.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-2: Symbol创建示例与内存对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 30,
+    "extracted_file": "src\\代码清单11-2_ Symbol创建示例与内存对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-3: String与Symbol哈希键性能对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单11-3_ String与Symbol哈希键性能对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-4: Symbol做键的配置哈希与互转",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 92,
+    "extracted_file": "src\\代码清单11-4_ Symbol做键的配置哈希与互转.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-5: Rails中Symbol的典型用法",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单11-5_ Rails中Symbol的典型用法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-6: Enumerable的默认包含验证",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单11-6_ Enumerable的默认包含验证.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-7: map变换与提取用户名",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 148,
+    "extracted_file": "src\\代码清单11-7_ map变换与提取用户名.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-8: map把价格从元转换为角",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 170,
+    "extracted_file": "src\\代码清单11-8_ map把价格从元转换为角.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-9: select筛选与reject排除",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 185,
+    "extracted_file": "src\\代码清单11-9_ select筛选与reject排除.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-10: reject排除空字符串",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 205,
+    "extracted_file": "src\\代码清单11-10_ reject排除空字符串.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-11: reduce聚合求和与乘积",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 213,
+    "extracted_file": "src\\代码清单11-11_ reduce聚合求和与乘积.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-12: find查找、取头部与随机取样",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 242,
+    "extracted_file": "src\\代码清单11-12_ find查找、取头部与随机取样.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单11-13: Enumerable方法链示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-011.md",
+    "line": 288,
+    "extracted_file": "src\\代码清单11-13_ Enumerable方法链示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-1: 正则字面量与=~匹配入门",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单12-1_ 正则字面量与=~匹配入门.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-2: 邮箱格式验证正则",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 54,
+    "extracted_file": "src\\代码清单12-2_ 邮箱格式验证正则.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-3: gsub配合捕获组转换日期格式",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 82,
+    "extracted_file": "src\\代码清单12-3_ gsub配合捕获组转换日期格式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-4: scan提取日志错误信息",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 100,
+    "extracted_file": "src\\代码清单12-4_ scan提取日志错误信息.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-5: scan提取网页中的URL",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 115,
+    "extracted_file": "src\\代码清单12-5_ scan提取网页中的URL.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-6: =~运算符返回匹配位置",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 129,
+    "extracted_file": "src\\代码清单12-6_ =~运算符返回匹配位置.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-7: match方法返回MatchData",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 135,
+    "extracted_file": "src\\代码清单12-7_ match方法返回MatchData.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-8: 读取MatchData位置与捕获组",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 141,
+    "extracted_file": "src\\代码清单12-8_ 读取MatchData位置与捕获组.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-9: 捕获组配合全局变量取年月日",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 155,
+    "extracted_file": "src\\代码清单12-9_ 捕获组配合全局变量取年月日.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-10: 提取用户姓名与年龄",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 164,
+    "extracted_file": "src\\代码清单12-10_ 提取用户姓名与年龄.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-11: 非捕获组忽略称谓后缀",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 173,
+    "extracted_file": "src\\代码清单12-11_ 非捕获组忽略称谓后缀.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-12: 命名捕获组提取年月日",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 181,
+    "extracted_file": "src\\代码清单12-12_ 命名捕获组提取年月日.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单12-13: 正则三场景综合演示程序",
+    "lang": "ruby",
+    "chapter_file": "chapter-012.md",
+    "line": 223,
+    "extracted_file": "src\\代码清单12-13_ 正则三场景综合演示程序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-1: File.read读取文件内容",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 15,
+    "extracted_file": "src\\代码清单13-1_ File.read读取文件内容.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-2: File.write写入文件",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 22,
+    "extracted_file": "src\\代码清单13-2_ File.write写入文件.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-3: 代码块打开文件自动关闭",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 30,
+    "extracted_file": "src\\代码清单13-3_ 代码块打开文件自动关闭.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-4: each_line逐行处理文件",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 40,
+    "extracted_file": "src\\代码清单13-4_ each_line逐行处理文件.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-5: gets读取用户输入并回应",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 62,
+    "extracted_file": "src\\代码清单13-5_ gets读取用户输入并回应.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-6: JSON与Ruby对象互转",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 76,
+    "extracted_file": "src\\代码清单13-6_ JSON与Ruby对象互转.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-7: 文件读写与追加完整演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 94,
+    "extracted_file": "src\\代码清单13-7_ 文件读写与追加完整演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-8: puts/print与gets输入演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 154,
+    "extracted_file": "src\\代码清单13-8_ puts_print与gets输入演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-9: JSON生成解析与文件持久化",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 205,
+    "extracted_file": "src\\代码清单13-9_ JSON生成解析与文件持久化.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-10: CSV转JSON的三行核心写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 276,
+    "extracted_file": "src\\代码清单13-10_ CSV转JSON的三行核心写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-11: CSV转JSON完整演示程序",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 286,
+    "extracted_file": "src\\代码清单13-11_ CSV转JSON完整演示程序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单13-12: 批量统计目录txt文件行数",
+    "lang": "ruby",
+    "chapter_file": "chapter-013.md",
+    "line": 357,
+    "extracted_file": "src\\代码清单13-12_ 批量统计目录txt文件行数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-1: begin圈出可能出错的代码",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 21,
+    "extracted_file": "src\\代码清单14-1_ begin圈出可能出错的代码.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-2: rescue接住异常避免崩溃",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 36,
+    "extracted_file": "src\\代码清单14-2_ rescue接住异常避免崩溃.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-3: 按异常类型分别捕获处理",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 48,
+    "extracted_file": "src\\代码清单14-3_ 按异常类型分别捕获处理.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-4: ensure确保文件必然关闭",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单14-4_ ensure确保文件必然关闭.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-5: 代码块写法免去手动close",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 76,
+    "extracted_file": "src\\代码清单14-5_ 代码块写法免去手动close.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-6: 除零错误捕获计算器示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 90,
+    "extracted_file": "src\\代码清单14-6_ 除零错误捕获计算器示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-7: 配置文件缺失时兜底加载",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 139,
+    "extracted_file": "src\\代码清单14-7_ 配置文件缺失时兜底加载.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-8: ensure确保数据库连接释放",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 195,
+    "extracted_file": "src\\代码清单14-8_ ensure确保数据库连接释放.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-9: 自定义支付异常类体系",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 289,
+    "extracted_file": "src\\代码清单14-9_ 自定义支付异常类体系.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单14-10: raise主动抛出参数错误",
+    "lang": "ruby",
+    "chapter_file": "chapter-014.md",
+    "line": 377,
+    "extracted_file": "src\\代码清单14-10_ raise主动抛出参数错误.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-1: class关键字声明Dog类",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 29,
+    "extracted_file": "src\\代码清单15-1_ class关键字声明Dog类.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-2: 定义类并用new创建实例",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 41,
+    "extracted_file": "src\\代码清单15-2_ 定义类并用new创建实例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-3: initialize构造方法初始化对象",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 62,
+    "extracted_file": "src\\代码清单15-3_ initialize构造方法初始化对象.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-4: 实例方法须通过对象调用",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 91,
+    "extracted_file": "src\\代码清单15-4_ 实例方法须通过对象调用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-5: 类方法的两种定义写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 107,
+    "extracted_file": "src\\代码清单15-5_ 类方法的两种定义写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-6: 验证一切数据皆对象",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 133,
+    "extracted_file": "src\\代码清单15-6_ 验证一切数据皆对象.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-7: 基础类型也能调用方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 151,
+    "extracted_file": "src\\代码清单15-7_ 基础类型也能调用方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-8: 类本身也是Class的对象",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 165,
+    "extracted_file": "src\\代码清单15-8_ 类本身也是Class的对象.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-9: 一切皆对象全面验证程序",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 180,
+    "extracted_file": "src\\代码清单15-9_ 一切皆对象全面验证程序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-10: 完整Dog类定义与类方法演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 223,
+    "extracted_file": "src\\代码清单15-10_ 完整Dog类定义与类方法演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-11: User类封装用户管理逻辑",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 309,
+    "extracted_file": "src\\代码清单15-11_ User类封装用户管理逻辑.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单15-12: Animal继承与多态演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-015.md",
+    "line": 394,
+    "extracted_file": "src\\代码清单15-12_ Animal继承与多态演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单16-1: Animal与Dog继承层次示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-016.md",
+    "line": 27,
+    "extracted_file": "src\\代码清单16-1_ Animal与Dog继承层次示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单16-2: super委托父类方法示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-016.md",
+    "line": 94,
+    "extracted_file": "src\\代码清单16-2_ super委托父类方法示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单16-3: 模块命名空间组织类与常量",
+    "lang": "ruby",
+    "chapter_file": "chapter-016.md",
+    "line": 126,
+    "extracted_file": "src\\代码清单16-3_ 模块命名空间组织类与常量.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单16-4: self.included混入钩子演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-016.md",
+    "line": 173,
+    "extracted_file": "src\\代码清单16-4_ self.included混入钩子演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-1: extend将模块方法变为类方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 31,
+    "extracted_file": "src\\代码清单17-1_ extend将模块方法变为类方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-2: Comparable模块实现对象比较",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 56,
+    "extracted_file": "src\\代码清单17-2_ Comparable模块实现对象比较.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-3: 实现each获得完整枚举能力",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 112,
+    "extracted_file": "src\\代码清单17-3_ 实现each获得完整枚举能力.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-4: include与extend作用层级对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 172,
+    "extracted_file": "src\\代码清单17-4_ include与extend作用层级对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-5: prepend为save方法添加日志",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 228,
+    "extracted_file": "src\\代码清单17-5_ prepend为save方法添加日志.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-6: prepend装饰器式包装方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 254,
+    "extracted_file": "src\\代码清单17-6_ prepend装饰器式包装方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单17-7: 三种混入方式查找链对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-017.md",
+    "line": 301,
+    "extracted_file": "src\\代码清单17-7_ 三种混入方式查找链对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-1: method_missing拦截未知方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 13,
+    "extracted_file": "src\\代码清单18-1_ method_missing拦截未知方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-2: 未定义的where查询调用",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 62,
+    "extracted_file": "src\\代码清单18-2_ 未定义的where查询调用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-3: method_missing定义语法",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 93,
+    "extracted_file": "src\\代码清单18-3_ method_missing定义语法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-4: 动态属性读写的语法糖实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 106,
+    "extracted_file": "src\\代码清单18-4_ 动态属性读写的语法糖实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-5: define_method动态创建方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 158,
+    "extracted_file": "src\\代码清单18-5_ define_method动态创建方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-6: 循环批量生成动态方法名",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 177,
+    "extracted_file": "src\\代码清单18-6_ 循环批量生成动态方法名.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-7: define_method接收参数示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 197,
+    "extracted_file": "src\\代码清单18-7_ define_method接收参数示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-8: 惰性方法定义模式代码模板",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 228,
+    "extracted_file": "src\\代码清单18-8_ 惰性方法定义模式代码模板.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-9: 链式查询构建器实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 260,
+    "extracted_file": "src\\代码清单18-9_ 链式查询构建器实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-10: method_missing拦截完整演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 300,
+    "extracted_file": "src\\代码清单18-10_ method_missing拦截完整演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-11: define_method动态定义方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 367,
+    "extracted_file": "src\\代码清单18-11_ define_method动态定义方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-12: 动态代理DSL模拟where接口",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 467,
+    "extracted_file": "src\\代码清单18-12_ 动态代理DSL模拟where接口.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单18-13: 类宏定义创建可复用类级方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-018.md",
+    "line": 593,
+    "extracted_file": "src\\代码清单18-13_ 类宏定义创建可复用类级方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-1: describe与it描述测试场景",
+    "lang": "ruby",
+    "chapter_file": "chapter-019.md",
+    "line": 52,
+    "extracted_file": "src\\代码清单19-1_ describe与it描述测试场景.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-2: Minitest Spec风格完整示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-019.md",
+    "line": 74,
+    "extracted_file": "src\\代码清单19-2_ Minitest Spec风格完整示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-3: 运行Spec风格测试文件",
+    "lang": "bash",
+    "chapter_file": "chapter-019.md",
+    "line": 186,
+    "extracted_file": "src\\代码清单19-3_ 运行Spec风格测试文件.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单19-4: 断言方法完整用法演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-019.md",
+    "line": 227,
+    "extracted_file": "src\\代码清单19-4_ 断言方法完整用法演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-5: 运行断言方法测试文件",
+    "lang": "bash",
+    "chapter_file": "chapter-019.md",
+    "line": 311,
+    "extracted_file": "src\\代码清单19-5_ 运行断言方法测试文件.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单19-6: before与after钩子用法",
+    "lang": "ruby",
+    "chapter_file": "chapter-019.md",
+    "line": 333,
+    "extracted_file": "src\\代码清单19-6_ before与after钩子用法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-7: TDD红绿重构实现阶乘",
+    "lang": "ruby",
+    "chapter_file": "chapter-019.md",
+    "line": 391,
+    "extracted_file": "src\\代码清单19-7_ TDD红绿重构实现阶乘.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-8: 运行TDD阶乘测试文件",
+    "lang": "bash",
+    "chapter_file": "chapter-019.md",
+    "line": 502,
+    "extracted_file": "src\\代码清单19-8_ 运行TDD阶乘测试文件.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单19-9: StringHelper综合测试示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-019.md",
+    "line": 524,
+    "extracted_file": "src\\代码清单19-9_ StringHelper综合测试示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单19-10: 运行StringHelper测试文件",
+    "lang": "bash",
+    "chapter_file": "chapter-019.md",
+    "line": 624,
+    "extracted_file": "src\\代码清单19-10_ 运行StringHelper测试文件.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-1: 查看已安装的Gem列表",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 49,
+    "extracted_file": "src\\代码清单20-1_ 查看已安装的Gem列表.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-2: 安装指定版本的Gem",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 57,
+    "extracted_file": "src\\代码清单20-2_ 安装指定版本的Gem.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-3: 卸载指定版本的Gem",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 65,
+    "extracted_file": "src\\代码清单20-3_ 卸载指定版本的Gem.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-4: 远程搜索Gem包",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 73,
+    "extracted_file": "src\\代码清单20-4_ 远程搜索Gem包.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-5: 安装bundler工具",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单20-5_ 安装bundler工具.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-6: Rails项目Gemfile声明示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-020.md",
+    "line": 105,
+    "extracted_file": "src\\代码清单20-6_ Rails项目Gemfile声明示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单20-7: bundle install全流程操作",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 154,
+    "extracted_file": "src\\代码清单20-7_ bundle install全流程操作.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-8: 悲观版本约束写法对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-020.md",
+    "line": 257,
+    "extracted_file": "src\\代码清单20-8_ 悲观版本约束写法对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单20-9: bundle gem创建Gem骨架",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 295,
+    "extracted_file": "src\\代码清单20-9_ bundle gem创建Gem骨架.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-10: gemspec元数据文件编写",
+    "lang": "ruby",
+    "chapter_file": "chapter-020.md",
+    "line": 328,
+    "extracted_file": "src\\代码清单20-10_ gemspec元数据文件编写.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单20-11: Gem功能代码Greeter实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-020.md",
+    "line": 386,
+    "extracted_file": "src\\代码清单20-11_ Gem功能代码Greeter实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单20-12: gem build构建Gem包",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 417,
+    "extracted_file": "src\\代码清单20-12_ gem build构建Gem包.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-13: 本地安装测试Gem包",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 432,
+    "extracted_file": "src\\代码清单20-13_ 本地安装测试Gem包.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-14: gem push发布到RubyGems",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 453,
+    "extracted_file": "src\\代码清单20-14_ gem push发布到RubyGems.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-15: 在Gemfile中引用已发布Gem",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 471,
+    "extracted_file": "src\\代码清单20-15_ 在Gemfile中引用已发布Gem.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-16: 更新版本号并重新发布",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 485,
+    "extracted_file": "src\\代码清单20-16_ 更新版本号并重新发布.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-17: 依赖冲突场景演示",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 514,
+    "extracted_file": "src\\代码清单20-17_ 依赖冲突场景演示.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-18: bundle update更新Gem",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 531,
+    "extracted_file": "src\\代码清单20-18_ bundle update更新Gem.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单20-19: 依赖树诊断工具用法",
+    "lang": "bash",
+    "chapter_file": "chapter-020.md",
+    "line": 564,
+    "extracted_file": "src\\代码清单20-19_ 依赖树诊断工具用法.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单21-1: 添加任务的命令行调用",
+    "lang": "bash",
+    "chapter_file": "chapter-021.md",
+    "line": 31,
+    "extracted_file": "src\\代码清单21-1_ 添加任务的命令行调用.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单21-2: 列出已完成任务的命令",
+    "lang": "bash",
+    "chapter_file": "chapter-021.md",
+    "line": 45,
+    "extracted_file": "src\\代码清单21-2_ 列出已完成任务的命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单21-3: 删除任务的命令演示",
+    "lang": "bash",
+    "chapter_file": "chapter-021.md",
+    "line": 56,
+    "extracted_file": "src\\代码清单21-3_ 删除任务的命令演示.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单21-4: ARGV接收命令行参数演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单21-4_ ARGV接收命令行参数演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-5: 手写条件判断解析-n选项",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 94,
+    "extracted_file": "src\\代码清单21-5_ 手写条件判断解析-n选项.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-6: OptionParser解析选项实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 105,
+    "extracted_file": "src\\代码清单21-6_ OptionParser解析选项实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-7: OptionParser多选项解析示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 127,
+    "extracted_file": "src\\代码清单21-7_ OptionParser多选项解析示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-8: OptionParser示例运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-021.md",
+    "line": 173,
+    "extracted_file": "src\\代码清单21-8_ OptionParser示例运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单21-9: if-else命令分支处理",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单21-9_ if-else命令分支处理.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-10: case命令分支处理",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 222,
+    "extracted_file": "src\\代码清单21-10_ case命令分支处理.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-11: 哈希分发命令路由模式",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 243,
+    "extracted_file": "src\\代码清单21-11_ 哈希分发命令路由模式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-12: TodoCLI类封装命令注册",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 310,
+    "extracted_file": "src\\代码清单21-12_ TodoCLI类封装命令注册.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-13: TodoCLI完整骨架程序",
+    "lang": "ruby",
+    "chapter_file": "chapter-021.md",
+    "line": 342,
+    "extracted_file": "src\\代码清单21-13_ TodoCLI完整骨架程序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单21-14: 骨架程序运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-021.md",
+    "line": 504,
+    "extracted_file": "src\\代码清单21-14_ 骨架程序运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单22-1: Task类定义任务模型",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 27,
+    "extracted_file": "src\\代码清单22-1_ Task类定义任务模型.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-2: 创建并使用Task实例",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 80,
+    "extracted_file": "src\\代码清单22-2_ 创建并使用Task实例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-3: 哈希加数组的任务存储结构",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单22-3_ 哈希加数组的任务存储结构.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-4: 纯数组与哈希查找性能对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 142,
+    "extracted_file": "src\\代码清单22-4_ 纯数组与哈希查找性能对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-5: 新增任务add方法实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 177,
+    "extracted_file": "src\\代码清单22-5_ 新增任务add方法实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-6: 列出任务list方法实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 203,
+    "extracted_file": "src\\代码清单22-6_ 列出任务list方法实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-7: 标记任务完成done方法实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 237,
+    "extracted_file": "src\\代码清单22-7_ 标记任务完成done方法实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-8: 删除任务delete方法实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 265,
+    "extracted_file": "src\\代码清单22-8_ 删除任务delete方法实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-9: TaskManager完整类实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 298,
+    "extracted_file": "src\\代码清单22-9_ TaskManager完整类实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-10: TodoCLI完整可运行程序",
+    "lang": "ruby",
+    "chapter_file": "chapter-022.md",
+    "line": 387,
+    "extracted_file": "src\\代码清单22-10_ TodoCLI完整可运行程序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单22-11: TodoCLI使用示例命令",
+    "lang": "bash",
+    "chapter_file": "chapter-022.md",
+    "line": 574,
+    "extracted_file": "src\\代码清单22-11_ TodoCLI使用示例命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单23-1: 任务数据的JSON格式示例",
+    "lang": "json",
+    "chapter_file": "chapter-023.md",
+    "line": 36,
+    "extracted_file": "src\\代码清单23-1_ 任务数据的JSON格式示例.json",
+    "source": null
+  },
+  {
+    "title": "代码清单23-2: Ruby对象与JSON相互转换",
+    "lang": "ruby",
+    "chapter_file": "chapter-023.md",
+    "line": 49,
+    "extracted_file": "src\\代码清单23-2_ Ruby对象与JSON相互转换.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单23-3: JSON格式化输出示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-023.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单23-3_ JSON格式化输出示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单23-4: 格式化后的JSON输出结果",
+    "lang": "json",
+    "chapter_file": "chapter-023.md",
+    "line": 70,
+    "extracted_file": "src\\代码清单23-4_ 格式化后的JSON输出结果.json",
+    "source": null
+  },
+  {
+    "title": "代码清单23-5: File.join跨平台路径拼接",
+    "lang": "ruby",
+    "chapter_file": "chapter-023.md",
+    "line": 106,
+    "extracted_file": "src\\代码清单23-5_ File.join跨平台路径拼接.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单23-6: 定义数据目录与文件路径",
+    "lang": "ruby",
+    "chapter_file": "chapter-023.md",
+    "line": 114,
+    "extracted_file": "src\\代码清单23-6_ 定义数据目录与文件路径.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单23-7: 文件存在性检查与容错读取",
+    "lang": "ruby",
+    "chapter_file": "chapter-023.md",
+    "line": 125,
+    "extracted_file": "src\\代码清单23-7_ 文件存在性检查与容错读取.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单23-8: TodoCLI持久化完整实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-023.md",
+    "line": 141,
+    "extracted_file": "src\\代码清单23-8_ TodoCLI持久化完整实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单23-9: 完整程序运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-023.md",
+    "line": 463,
+    "extracted_file": "src\\代码清单23-9_ 完整程序运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单23-10: 程序运行预期输出演示",
+    "lang": "bash",
+    "chapter_file": "chapter-023.md",
+    "line": 481,
+    "extracted_file": "src\\代码清单23-10_ 程序运行预期输出演示.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单23-11: 重启后数据持久化验证",
+    "lang": "bash",
+    "chapter_file": "chapter-023.md",
+    "line": 523,
+    "extracted_file": "src\\代码清单23-11_ 重启后数据持久化验证.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单24-1: 双层while循环break演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 116,
+    "extracted_file": "src\\代码清单24-1_ 双层while循环break演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-2: 猜数字游戏单局版实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 154,
+    "extracted_file": "src\\代码清单24-2_ 猜数字游戏单局版实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-3: 猜数字游戏完整版实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 208,
+    "extracted_file": "src\\代码清单24-3_ 猜数字游戏完整版实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-4: Random.rand生成随机数",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 322,
+    "extracted_file": "src\\代码清单24-4_ Random.rand生成随机数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-5: 读取用户输入三步合一",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 337,
+    "extracted_file": "src\\代码清单24-5_ 读取用户输入三步合一.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-6: case-when多条件分支写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 347,
+    "extracted_file": "src\\代码清单24-6_ case-when多条件分支写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-7: downcase统一输入大小写",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 363,
+    "extracted_file": "src\\代码清单24-7_ downcase统一输入大小写.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-8: 正则校验非数字输入",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 429,
+    "extracted_file": "src\\代码清单24-8_ 正则校验非数字输入.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单24-9: 校验猜测数字范围",
+    "lang": "ruby",
+    "chapter_file": "chapter-024.md",
+    "line": 445,
+    "extracted_file": "src\\代码清单24-9_ 校验猜测数字范围.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单25-1: 哈希存储联系人方案",
+    "lang": "ruby",
+    "chapter_file": "chapter-025.md",
+    "line": 68,
+    "extracted_file": "src\\代码清单25-1_ 哈希存储联系人方案.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单25-2: Contact类定义联系人模型",
+    "lang": "ruby",
+    "chapter_file": "chapter-025.md",
+    "line": 113,
+    "extracted_file": "src\\代码清单25-2_ Contact类定义联系人模型.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单25-3: 创建并使用Contact实例",
+    "lang": "ruby",
+    "chapter_file": "chapter-025.md",
+    "line": 171,
+    "extracted_file": "src\\代码清单25-3_ 创建并使用Contact实例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单25-4: ContactManager管理器框架",
+    "lang": "ruby",
+    "chapter_file": "chapter-025.md",
+    "line": 230,
+    "extracted_file": "src\\代码清单25-4_ ContactManager管理器框架.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单25-5: 联系人JSON保存与加载",
+    "lang": "ruby",
+    "chapter_file": "chapter-025.md",
+    "line": 292,
+    "extracted_file": "src\\代码清单25-5_ 联系人JSON保存与加载.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单25-6: 生成的contacts.json内容",
+    "lang": "json",
+    "chapter_file": "chapter-025.md",
+    "line": 332,
+    "extracted_file": "src\\代码清单25-6_ 生成的contacts.json内容.json",
+    "source": null
+  },
+  {
+    "title": "代码清单26-1: SecureRandom 生成 UUID",
+    "lang": "ruby",
+    "chapter_file": "chapter-026.md",
+    "line": 33,
+    "extracted_file": "src\\代码清单26-1_ SecureRandom 生成 UUID.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单26-2: Contact 联系人数据模型",
+    "lang": "ruby",
+    "chapter_file": "chapter-026.md",
+    "line": 108,
+    "extracted_file": "src\\代码清单26-2_ Contact 联系人数据模型.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单26-3: 联系人管理器与 CRUD 持久化",
+    "lang": "ruby",
+    "chapter_file": "chapter-026.md",
+    "line": 182,
+    "extracted_file": "src\\代码清单26-3_ 联系人管理器与 CRUD 持久化.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单26-4: 完整 CRUD 工作流演示",
+    "lang": "ruby",
+    "chapter_file": "chapter-026.md",
+    "line": 332,
+    "extracted_file": "src\\代码清单26-4_ 完整 CRUD 工作流演示.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单26-5: 运行 CRUD 演示脚本",
+    "lang": "bash",
+    "chapter_file": "chapter-026.md",
+    "line": 434,
+    "extracted_file": "src\\代码清单26-5_ 运行 CRUD 演示脚本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单27-1: Contact 联系人字段一览",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 29,
+    "extracted_file": "src\\代码清单27-1_ Contact 联系人字段一览.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-2: 多条件搜索方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 37,
+    "extracted_file": "src\\代码清单27-2_ 多条件搜索方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-3: 多条件搜索使用示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 65,
+    "extracted_file": "src\\代码清单27-3_ 多条件搜索使用示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-4: 正则匹配 gmail 邮箱",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 95,
+    "extracted_file": "src\\代码清单27-4_ 正则匹配 gmail 邮箱.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-5: 支持正则表达式的搜索方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 108,
+    "extracted_file": "src\\代码清单27-5_ 支持正则表达式的搜索方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-6: 正则搜索使用示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 137,
+    "extracted_file": "src\\代码清单27-6_ 正则搜索使用示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-7: 按姓名单键排序示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 172,
+    "extracted_file": "src\\代码清单27-7_ 按姓名单键排序示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-8: 先按姓再按全名的多键排序",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 189,
+    "extracted_file": "src\\代码清单27-8_ 先按姓再按全名的多键排序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-9: VIP 优先的自定义排序",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 205,
+    "extracted_file": "src\\代码清单27-9_ VIP 优先的自定义排序.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-10: 搜索并排序组合方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 225,
+    "extracted_file": "src\\代码清单27-10_ 搜索并排序组合方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-11: 搜索排序组合使用示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 259,
+    "extracted_file": "src\\代码清单27-11_ 搜索排序组合使用示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-12: 分页方法实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 283,
+    "extracted_file": "src\\代码清单27-12_ 分页方法实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-13: 搜索排序分页整合",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 319,
+    "extracted_file": "src\\代码清单27-13_ 搜索排序分页整合.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-14: 分页搜索使用示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 335,
+    "extracted_file": "src\\代码清单27-14_ 分页搜索使用示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-15: 姓名哈希索引加速查找",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 391,
+    "extracted_file": "src\\代码清单27-15_ 姓名哈希索引加速查找.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-16: 搜索排序分页完整实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 419,
+    "extracted_file": "src\\代码清单27-16_ 搜索排序分页完整实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-17: 搜索排序分页演示脚本",
+    "lang": "ruby",
+    "chapter_file": "chapter-027.md",
+    "line": 644,
+    "extracted_file": "src\\代码清单27-17_ 搜索排序分页演示脚本.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单27-18: 运行搜索排序演示",
+    "lang": "bash",
+    "chapter_file": "chapter-027.md",
+    "line": 710,
+    "extracted_file": "src\\代码清单27-18_ 运行搜索排序演示.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-1: Sinatra Hello World",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单28-1_ Sinatra Hello World.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-2: 安装 Sinatra",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 91,
+    "extracted_file": "src\\代码清单28-2_ 安装 Sinatra.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-3: 最小可运行的 Sinatra 应用",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 98,
+    "extracted_file": "src\\代码清单28-3_ 最小可运行的 Sinatra 应用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-4: 启动最小 Sinatra 应用",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 120,
+    "extracted_file": "src\\代码清单28-4_ 启动最小 Sinatra 应用.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-5: 计时日志中间件实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 149,
+    "extracted_file": "src\\代码清单28-5_ 计时日志中间件实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-6: 挂载中间件的应用",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 183,
+    "extracted_file": "src\\代码清单28-6_ 挂载中间件的应用.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-7: 运行中间件示例应用",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 219,
+    "extracted_file": "src\\代码清单28-7_ 运行中间件示例应用.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-8: Rackup 部署配置文件",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 234,
+    "extracted_file": "src\\代码清单28-8_ Rackup 部署配置文件.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-9: 使用 rackup 启动应用",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 254,
+    "extracted_file": "src\\代码清单28-9_ 使用 rackup 启动应用.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-10: Article 文章数据模型",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 285,
+    "extracted_file": "src\\代码清单28-10_ Article 文章数据模型.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-11: 文章模型测试脚本",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 347,
+    "extracted_file": "src\\代码清单28-11_ 文章模型测试脚本.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-12: 运行文章模型测试",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 381,
+    "extracted_file": "src\\代码清单28-12_ 运行文章模型测试.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-13: Gemfile 依赖声明",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 427,
+    "extracted_file": "src\\代码清单28-13_ Gemfile 依赖声明.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-14: 博客主应用完整路由",
+    "lang": "ruby",
+    "chapter_file": "chapter-028.md",
+    "line": 446,
+    "extracted_file": "src\\代码清单28-14_ 博客主应用完整路由.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单28-15: 直接运行启动博客",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 569,
+    "extracted_file": "src\\代码清单28-15_ 直接运行启动博客.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-16: 用 Rackup 启动博客",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 574,
+    "extracted_file": "src\\代码清单28-16_ 用 Rackup 启动博客.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单28-17: 用 Bundler 启动博客",
+    "lang": "bash",
+    "chapter_file": "chapter-028.md",
+    "line": 579,
+    "extracted_file": "src\\代码清单28-17_ 用 Bundler 启动博客.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单29-1: RESTful 路由对比示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-029.md",
+    "line": 35,
+    "extracted_file": "src\\代码清单29-1_ RESTful 路由对比示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-2: 启用方法覆盖中间件",
+    "lang": "ruby",
+    "chapter_file": "chapter-029.md",
+    "line": 85,
+    "extracted_file": "src\\代码清单29-2_ 启用方法覆盖中间件.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-3: 隐藏字段模拟 PUT/DELETE",
+    "lang": "html",
+    "chapter_file": "chapter-029.md",
+    "line": 92,
+    "extracted_file": "src\\代码清单29-3_ 隐藏字段模拟 PUT_DELETE.html",
+    "source": null
+  },
+  {
+    "title": "代码清单29-4: Article 模型完整版含更新",
+    "lang": "ruby",
+    "chapter_file": "chapter-029.md",
+    "line": 116,
+    "extracted_file": "src\\代码清单29-4_ Article 模型完整版含更新.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-5: 命令行验证 update 方法",
+    "lang": "bash",
+    "chapter_file": "chapter-029.md",
+    "line": 182,
+    "extracted_file": "src\\代码清单29-5_ 命令行验证 update 方法.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单29-6: 博客完整 CRUD 路由",
+    "lang": "ruby",
+    "chapter_file": "chapter-029.md",
+    "line": 204,
+    "extracted_file": "src\\代码清单29-6_ 博客完整 CRUD 路由.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-7: 页面布局模板 layout.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-029.md",
+    "line": 352,
+    "extracted_file": "src\\代码清单29-7_ 页面布局模板 layout.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-8: 文章列表页 index.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-029.md",
+    "line": 388,
+    "extracted_file": "src\\代码清单29-8_ 文章列表页 index.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-9: 新建文章表单 new.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-029.md",
+    "line": 407,
+    "extracted_file": "src\\代码清单29-9_ 新建文章表单 new.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-10: 编辑文章表单 edit.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-029.md",
+    "line": 422,
+    "extracted_file": "src\\代码清单29-10_ 编辑文章表单 edit.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-11: 文章详情页 show.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-029.md",
+    "line": 440,
+    "extracted_file": "src\\代码清单29-11_ 文章详情页 show.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-12: 404 页面 not_found.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-029.md",
+    "line": 460,
+    "extracted_file": "src\\代码清单29-12_ 404 页面 not_found.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-13: 博客 Gemfile 内容",
+    "lang": "ruby",
+    "chapter_file": "chapter-029.md",
+    "line": 489,
+    "extracted_file": "src\\代码清单29-13_ 博客 Gemfile 内容.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单29-14: 启动完整博客",
+    "lang": "bash",
+    "chapter_file": "chapter-029.md",
+    "line": 498,
+    "extracted_file": "src\\代码清单29-14_ 启动完整博客.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单30-1: 基础布局模板 layout.erb",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 47,
+    "extracted_file": "src\\代码清单30-1_ 基础布局模板 layout.erb.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-2: 文章局部模板 _article",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 83,
+    "extracted_file": "src\\代码清单30-2_ 文章局部模板 _article.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-3: 在列表页引入局部模板",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 101,
+    "extracted_file": "src\\代码清单30-3_ 在列表页引入局部模板.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-4: 博客外部样式表",
+    "lang": "css",
+    "chapter_file": "chapter-030.md",
+    "line": 133,
+    "extracted_file": "src\\代码清单30-4_ 博客外部样式表.css",
+    "source": null
+  },
+  {
+    "title": "代码清单30-5: 引入外部样式表",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 208,
+    "extracted_file": "src\\代码清单30-5_ 引入外部样式表.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-6: 博客表单 HTML 结构",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 220,
+    "extracted_file": "src\\代码清单30-6_ 博客表单 HTML 结构.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-7: 表单样式 CSS",
+    "lang": "css",
+    "chapter_file": "chapter-030.md",
+    "line": 243,
+    "extracted_file": "src\\代码清单30-7_ 表单样式 CSS.css",
+    "source": null
+  },
+  {
+    "title": "代码清单30-8: viewport 响应式设置",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 286,
+    "extracted_file": "src\\代码清单30-8_ viewport 响应式设置.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-9: 移动端媒体查询样式",
+    "lang": "css",
+    "chapter_file": "chapter-030.md",
+    "line": 292,
+    "extracted_file": "src\\代码清单30-9_ 移动端媒体查询样式.css",
+    "source": null
+  },
+  {
+    "title": "代码清单30-10: 引入 Bootstrap",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 314,
+    "extracted_file": "src\\代码清单30-10_ 引入 Bootstrap.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-11: Bootstrap 版页面结构",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 321,
+    "extracted_file": "src\\代码清单30-11_ Bootstrap 版页面结构.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-12: 改造后的完整布局模板",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 355,
+    "extracted_file": "src\\代码清单30-12_ 改造后的完整布局模板.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-13: 卡片式文章列表页",
+    "lang": "erb",
+    "chapter_file": "chapter-030.md",
+    "line": 400,
+    "extracted_file": "src\\代码清单30-13_ 卡片式文章列表页.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单30-14: truncate 辅助方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-030.md",
+    "line": 447,
+    "extracted_file": "src\\代码清单30-14_ truncate 辅助方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-1: 创建 Rails 社交应用项目",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 9,
+    "extracted_file": "src\\代码清单31-1_ 创建 Rails 社交应用项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-2: 按需裁剪组件创建项目",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 81,
+    "extracted_file": "src\\代码清单31-2_ 按需裁剪组件创建项目.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-3: 模型查找与关联查询示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 121,
+    "extracted_file": "src\\代码清单31-3_ 模型查找与关联查询示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-4: scaffold 生成用户与好友资源",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 157,
+    "extracted_file": "src\\代码清单31-4_ scaffold 生成用户与好友资源.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-5: 用户表迁移与唯一索引",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 167,
+    "extracted_file": "src\\代码清单31-5_ 用户表迁移与唯一索引.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-6: 用户模型双向关注关联",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 200,
+    "extracted_file": "src\\代码清单31-6_ 用户模型双向关注关联.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-7: Friendship 中间表防重校验",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 224,
+    "extracted_file": "src\\代码清单31-7_ Friendship 中间表防重校验.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-8: scaffold 生成帖子 CRUD",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 242,
+    "extracted_file": "src\\代码清单31-8_ scaffold 生成帖子 CRUD.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-9: 一行声明七条 RESTful 路由",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 270,
+    "extracted_file": "src\\代码清单31-9_ 一行声明七条 RESTful 路由.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-10: 社交应用完整路由配置",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 292,
+    "extracted_file": "src\\代码清单31-10_ 社交应用完整路由配置.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-11: 自定义关注与取关路由",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 334,
+    "extracted_file": "src\\代码清单31-11_ 自定义关注与取关路由.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-12: 关注控制器与 Session 认证",
+    "lang": "ruby",
+    "chapter_file": "chapter-031.md",
+    "line": 351,
+    "extracted_file": "src\\代码清单31-12_ 关注控制器与 Session 认证.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单31-13: 生成并进入项目目录",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 388,
+    "extracted_file": "src\\代码清单31-13_ 生成并进入项目目录.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-14: 批量生成四个模型脚手架",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 397,
+    "extracted_file": "src\\代码清单31-14_ 批量生成四个模型脚手架.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-15: 执行数据库迁移",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 406,
+    "extracted_file": "src\\代码清单31-15_ 执行数据库迁移.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单31-16: 启动 Rails 服务器",
+    "lang": "bash",
+    "chapter_file": "chapter-031.md",
+    "line": 416,
+    "extracted_file": "src\\代码清单31-16_ 启动 Rails 服务器.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单32-1: 一行声明启用安全密码",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 59,
+    "extracted_file": "src\\代码清单32-1_ 一行声明启用安全密码.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-2: 用户表迁移含密码摘要字段",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 84,
+    "extracted_file": "src\\代码清单32-2_ 用户表迁移含密码摘要字段.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-3: 用户模型验证与邮箱小写化",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 106,
+    "extracted_file": "src\\代码清单32-3_ 用户模型验证与邮箱小写化.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-4: 执行迁移生成用户表",
+    "lang": "bash",
+    "chapter_file": "chapter-032.md",
+    "line": 135,
+    "extracted_file": "src\\代码清单32-4_ 执行迁移生成用户表.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单32-5: 认证基础设施与登录保护",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 162,
+    "extracted_file": "src\\代码清单32-5_ 认证基础设施与登录保护.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-6: 注册控制器与强参数",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 207,
+    "extracted_file": "src\\代码清单32-6_ 注册控制器与强参数.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-7: 用户注册表单视图",
+    "lang": "erb",
+    "chapter_file": "chapter-032.md",
+    "line": 249,
+    "extracted_file": "src\\代码清单32-7_ 用户注册表单视图.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-8: 登录与退出会话控制器",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 311,
+    "extracted_file": "src\\代码清单32-8_ 登录与退出会话控制器.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-9: 登录表单视图",
+    "lang": "erb",
+    "chapter_file": "chapter-032.md",
+    "line": 354,
+    "extracted_file": "src\\代码清单32-9_ 登录表单视图.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-10: 门卫过滤器保护仪表盘",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 394,
+    "extracted_file": "src\\代码清单32-10_ 门卫过滤器保护仪表盘.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-11: 帖子控制器的登录保护",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 413,
+    "extracted_file": "src\\代码清单32-11_ 帖子控制器的登录保护.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-12: 删除帖子的所有权校验",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 436,
+    "extracted_file": "src\\代码清单32-12_ 删除帖子的所有权校验.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-13: 认证相关路由集中声明",
+    "lang": "ruby",
+    "chapter_file": "chapter-032.md",
+    "line": 450,
+    "extracted_file": "src\\代码清单32-13_ 认证相关路由集中声明.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单32-14: 导航栏按登录状态渲染",
+    "lang": "erb",
+    "chapter_file": "chapter-032.md",
+    "line": 493,
+    "extracted_file": "src\\代码清单32-14_ 导航栏按登录状态渲染.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-1: 一对多基础关联声明",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 19,
+    "extracted_file": "src\\代码清单33-1_ 一对多基础关联声明.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-2: 关联带来的便捷数据操作",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 33,
+    "extracted_file": "src\\代码清单33-2_ 关联带来的便捷数据操作.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-3: 点赞功能多对多关联",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单33-3_ 点赞功能多对多关联.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-4: 点赞与计数的关联操作",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 83,
+    "extracted_file": "src\\代码清单33-4_ 点赞与计数的关联操作.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-5: counter_cache 计数缓存",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 99,
+    "extracted_file": "src\\代码清单33-5_ counter_cache 计数缓存.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-6: 自引用关联实现嵌套评论",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 113,
+    "extracted_file": "src\\代码清单33-6_ 自引用关联实现嵌套评论.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-7: 帖子表迁移与计数字段",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 164,
+    "extracted_file": "src\\代码清单33-7_ 帖子表迁移与计数字段.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-8: 评论表迁移与自关联索引",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 184,
+    "extracted_file": "src\\代码清单33-8_ 评论表迁移与自关联索引.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-9: 点赞表多态关联迁移",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 206,
+    "extracted_file": "src\\代码清单33-9_ 点赞表多态关联迁移.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-10: 用户模型级联删除关联",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 230,
+    "extracted_file": "src\\代码清单33-10_ 用户模型级联删除关联.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-11: 帖子模型校验与作用域",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 251,
+    "extracted_file": "src\\代码清单33-11_ 帖子模型校验与作用域.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-12: 评论嵌套回复与深度计算",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 273,
+    "extracted_file": "src\\代码清单33-12_ 评论嵌套回复与深度计算.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-13: 点赞模型防重复校验",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 312,
+    "extracted_file": "src\\代码清单33-13_ 点赞模型防重复校验.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-14: 帖子控制器与预加载优化",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 341,
+    "extracted_file": "src\\代码清单33-14_ 帖子控制器与预加载优化.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-15: 评论创建与回复控制器",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 413,
+    "extracted_file": "src\\代码清单33-15_ 评论创建与回复控制器.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-16: 点赞切换控制器实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 450,
+    "extracted_file": "src\\代码清单33-16_ 点赞切换控制器实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-17: 帖子详情页视图",
+    "lang": "erb",
+    "chapter_file": "chapter-033.md",
+    "line": 489,
+    "extracted_file": "src\\代码清单33-17_ 帖子详情页视图.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-18: 评论局部模板递归渲染",
+    "lang": "erb",
+    "chapter_file": "chapter-033.md",
+    "line": 536,
+    "extracted_file": "src\\代码清单33-18_ 评论局部模板递归渲染.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-19: 评论表单局部模板",
+    "lang": "erb",
+    "chapter_file": "chapter-033.md",
+    "line": 579,
+    "extracted_file": "src\\代码清单33-19_ 评论表单局部模板.erb",
+    "source": null
+  },
+  {
+    "title": "代码清单33-20: 嵌套评论与点赞路由",
+    "lang": "ruby",
+    "chapter_file": "chapter-033.md",
+    "line": 605,
+    "extracted_file": "src\\代码清单33-20_ 嵌套评论与点赞路由.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-1: 关注表迁移与唯一索引",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 27,
+    "extracted_file": "src\\代码清单34-1_ 关注表迁移与唯一索引.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-2: 关注模型禁止自我关注",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 55,
+    "extracted_file": "src\\代码清单34-2_ 关注模型禁止自我关注.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-3: 用户双向关注关联声明",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 75,
+    "extracted_file": "src\\代码清单34-3_ 用户双向关注关联声明.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-4: 关注取关与判断方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 91,
+    "extracted_file": "src\\代码清单34-4_ 关注取关与判断方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-5: 时间线 N+1 反面示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 128,
+    "extracted_file": "src\\代码清单34-5_ 时间线 N+1 反面示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-6: 时间线查询三级优化对比",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 164,
+    "extracted_file": "src\\代码清单34-6_ 时间线查询三级优化对比.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-7: 预加载分页的时间线方法",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 199,
+    "extracted_file": "src\\代码清单34-7_ 预加载分页的时间线方法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-8: 多策略时间线服务",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 229,
+    "extracted_file": "src\\代码清单34-8_ 多策略时间线服务.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-9: 时间线控制器双格式响应",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 278,
+    "extracted_file": "src\\代码清单34-9_ 时间线控制器双格式响应.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单34-10: 关注与时间线路由设计",
+    "lang": "ruby",
+    "chapter_file": "chapter-034.md",
+    "line": 300,
+    "extracted_file": "src\\代码清单34-10_ 关注与时间线路由设计.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-1: 创建 API 模式电商应用",
+    "lang": "bash",
+    "chapter_file": "chapter-035.md",
+    "line": 108,
+    "extracted_file": "src\\代码清单35-1_ 创建 API 模式电商应用.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单35-2: 商品表迁移与价格精度",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 119,
+    "extracted_file": "src\\代码清单35-2_ 商品表迁移与价格精度.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-3: 订单表迁移与单号索引",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 142,
+    "extracted_file": "src\\代码清单35-3_ 订单表迁移与单号索引.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-4: 订单项中间表迁移",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 160,
+    "extracted_file": "src\\代码清单35-4_ 订单项中间表迁移.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-5: 订单模型枚举与单号生成",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 177,
+    "extracted_file": "src\\代码清单35-5_ 订单模型枚举与单号生成.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-6: 商品模型校验与作用域",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 202,
+    "extracted_file": "src\\代码清单35-6_ 商品模型校验与作用域.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-7: 商品 API 控制器完整实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 223,
+    "extracted_file": "src\\代码清单35-7_ 商品 API 控制器完整实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-8: API 版本化命名空间路由",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 311,
+    "extracted_file": "src\\代码清单35-8_ API 版本化命名空间路由.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-9: JSON 基础成功响应结构",
+    "lang": "json",
+    "chapter_file": "chapter-035.md",
+    "line": 343,
+    "extracted_file": "src\\代码清单35-9_ JSON 基础成功响应结构.json",
+    "source": null
+  },
+  {
+    "title": "代码清单35-10: JSON 列表响应含总数",
+    "lang": "json",
+    "chapter_file": "chapter-035.md",
+    "line": 361,
+    "extracted_file": "src\\代码清单35-10_ JSON 列表响应含总数.json",
+    "source": null
+  },
+  {
+    "title": "代码清单35-11: JSON 统一错误响应结构",
+    "lang": "json",
+    "chapter_file": "chapter-035.md",
+    "line": 376,
+    "extracted_file": "src\\代码清单35-11_ JSON 统一错误响应结构.json",
+    "source": null
+  },
+  {
+    "title": "代码清单35-12: 种子数据批量创建商品",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 389,
+    "extracted_file": "src\\代码清单35-12_ 种子数据批量创建商品.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单35-13: curl 测试商品接口",
+    "lang": "bash",
+    "chapter_file": "chapter-035.md",
+    "line": 407,
+    "extracted_file": "src\\代码清单35-13_ curl 测试商品接口.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单35-14: 订单状态机与流转判断",
+    "lang": "ruby",
+    "chapter_file": "chapter-035.md",
+    "line": 429,
+    "extracted_file": "src\\代码清单35-14_ 订单状态机与流转判断.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-1: 商品控制器CRUD骨架",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 29,
+    "extracted_file": "src\\代码清单36-1_ 商品控制器CRUD骨架.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-2: 商品模型验证规则",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 90,
+    "extracted_file": "src\\代码清单36-2_ 商品模型验证规则.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-3: 商品查询作用域定义",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 104,
+    "extracted_file": "src\\代码清单36-3_ 商品查询作用域定义.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-4: 链式调用查询作用域",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 117,
+    "extracted_file": "src\\代码清单36-4_ 链式调用查询作用域.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-5: 事务块基本写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 168,
+    "extracted_file": "src\\代码清单36-5_ 事务块基本写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-6: 事务内创建订单流程",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 177,
+    "extracted_file": "src\\代码清单36-6_ 事务内创建订单流程.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-7: 悲观锁两种加锁方式",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 232,
+    "extracted_file": "src\\代码清单36-7_ 悲观锁两种加锁方式.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-8: 乐观锁版本字段迁移",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 251,
+    "extracted_file": "src\\代码清单36-8_ 乐观锁版本字段迁移.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-9: 乐观锁更新SQL语句",
+    "lang": "sql",
+    "chapter_file": "chapter-036.md",
+    "line": 261,
+    "extracted_file": "src\\代码清单36-9_ 乐观锁更新SQL语句.sql",
+    "source": null
+  },
+  {
+    "title": "代码清单36-10: 乐观锁冲突重试处理",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 272,
+    "extracted_file": "src\\代码清单36-10_ 乐观锁冲突重试处理.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-11: 订单服务类完整实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 302,
+    "extracted_file": "src\\代码清单36-11_ 订单服务类完整实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-12: 商品API控制器实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 367,
+    "extracted_file": "src\\代码清单36-12_ 商品API控制器实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-13: 订单API控制器实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 472,
+    "extracted_file": "src\\代码清单36-13_ 订单API控制器实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单36-14: 电商API路由配置",
+    "lang": "ruby",
+    "chapter_file": "chapter-036.md",
+    "line": 591,
+    "extracted_file": "src\\代码清单36-14_ 电商API路由配置.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-1: Bearer令牌请求头格式",
+    "lang": "http",
+    "chapter_file": "chapter-037.md",
+    "line": 46,
+    "extracted_file": "src\\代码清单37-1_ Bearer令牌请求头格式.http",
+    "source": null
+  },
+  {
+    "title": "代码清单37-2: JWT头部Header结构",
+    "lang": "json",
+    "chapter_file": "chapter-037.md",
+    "line": 64,
+    "extracted_file": "src\\代码清单37-2_ JWT头部Header结构.json",
+    "source": null
+  },
+  {
+    "title": "代码清单37-3: JWT载荷Payload声明",
+    "lang": "json",
+    "chapter_file": "chapter-037.md",
+    "line": 77,
+    "extracted_file": "src\\代码清单37-3_ JWT载荷Payload声明.json",
+    "source": null
+  },
+  {
+    "title": "代码清单37-4: 标准Claims完整载荷",
+    "lang": "json",
+    "chapter_file": "chapter-037.md",
+    "line": 134,
+    "extracted_file": "src\\代码清单37-4_ 标准Claims完整载荷.json",
+    "source": null
+  },
+  {
+    "title": "代码清单37-5: 双令牌刷新接口实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 192,
+    "extracted_file": "src\\代码清单37-5_ 双令牌刷新接口实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-6: JWT生成验证示例脚本",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 251,
+    "extracted_file": "src\\代码清单37-6_ JWT生成验证示例脚本.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-7: 示例脚本运行命令",
+    "lang": "bash",
+    "chapter_file": "chapter-037.md",
+    "line": 342,
+    "extracted_file": "src\\代码清单37-7_ 示例脚本运行命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单37-8: API认证控制器基类",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 370,
+    "extracted_file": "src\\代码清单37-8_ API认证控制器基类.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-9: 登录签发令牌接口",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 443,
+    "extracted_file": "src\\代码清单37-9_ 登录签发令牌接口.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-10: 用户模型密码认证",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 496,
+    "extracted_file": "src\\代码清单37-10_ 用户模型密码认证.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-11: 载荷敏感信息错误示范",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 526,
+    "extracted_file": "src\\代码清单37-11_ 载荷敏感信息错误示范.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-12: 指定算法防切换攻击",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 536,
+    "extracted_file": "src\\代码清单37-12_ 指定算法防切换攻击.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-13: RS256非对称签名示例",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 579,
+    "extracted_file": "src\\代码清单37-13_ RS256非对称签名示例.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单37-14: 明确指定算法验证写法",
+    "lang": "ruby",
+    "chapter_file": "chapter-037.md",
+    "line": 621,
+    "extracted_file": "src\\代码清单37-14_ 明确指定算法验证写法.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单38-1: OpenAPI接口文档定义",
+    "lang": "yaml",
+    "chapter_file": "chapter-038.md",
+    "line": 29,
+    "extracted_file": "src\\代码清单38-1_ OpenAPI接口文档定义.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单38-2: 商品API集成测试",
+    "lang": "ruby",
+    "chapter_file": "chapter-038.md",
+    "line": 365,
+    "extracted_file": "src\\代码清单38-2_ 商品API集成测试.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单38-3: 登录接口集成测试",
+    "lang": "ruby",
+    "chapter_file": "chapter-038.md",
+    "line": 527,
+    "extracted_file": "src\\代码清单38-3_ 登录接口集成测试.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单38-4: 运行API测试命令",
+    "lang": "bash",
+    "chapter_file": "chapter-038.md",
+    "line": 632,
+    "extracted_file": "src\\代码清单38-4_ 运行API测试命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单38-5: JWT认证API路由配置",
+    "lang": "ruby",
+    "chapter_file": "chapter-038.md",
+    "line": 647,
+    "extracted_file": "src\\代码清单38-5_ JWT认证API路由配置.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单38-6: 商品控制器最终实现",
+    "lang": "ruby",
+    "chapter_file": "chapter-038.md",
+    "line": 671,
+    "extracted_file": "src\\代码清单38-6_ 商品控制器最终实现.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单38-7: Gemfile依赖声明",
+    "lang": "ruby",
+    "chapter_file": "chapter-038.md",
+    "line": 741,
+    "extracted_file": "src\\代码清单38-7_ Gemfile依赖声明.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单38-8: 生成用户模型命令",
+    "lang": "bash",
+    "chapter_file": "chapter-038.md",
+    "line": 750,
+    "extracted_file": "src\\代码清单38-8_ 生成用户模型命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单39-1: Puma生产环境配置",
+    "lang": "ruby",
+    "chapter_file": "chapter-039.md",
+    "line": 73,
+    "extracted_file": "src\\代码清单39-1_ Puma生产环境配置.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单39-2: Nginx反向代理配置",
+    "lang": "nginx",
+    "chapter_file": "chapter-039.md",
+    "line": 122,
+    "extracted_file": "src\\代码清单39-2_ Nginx反向代理配置.conf",
+    "source": null
+  },
+  {
+    "title": "代码清单39-3: systemd服务单元配置",
+    "lang": "ini",
+    "chapter_file": "chapter-039.md",
+    "line": 183,
+    "extracted_file": "src\\代码清单39-3_ systemd服务单元配置.ini",
+    "source": null
+  },
+  {
+    "title": "代码清单39-4: 服务启用启动命令",
+    "lang": "bash",
+    "chapter_file": "chapter-039.md",
+    "line": 220,
+    "extracted_file": "src\\代码清单39-4_ 服务启用启动命令.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单39-5: 部署前检查脚本",
+    "lang": "bash",
+    "chapter_file": "chapter-039.md",
+    "line": 237,
+    "extracted_file": "src\\代码清单39-5_ 部署前检查脚本.sh",
+    "source": null
+  },
+  {
+    "title": "代码清单40-1: Job依赖关系配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-040.md",
+    "line": 60,
+    "extracted_file": "src\\代码清单40-1_ Job依赖关系配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单40-2: 复用Action安装Ruby",
+    "lang": "yaml",
+    "chapter_file": "chapter-040.md",
+    "line": 88,
+    "extracted_file": "src\\代码清单40-2_ 复用Action安装Ruby.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单40-3: CI流水线完整配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-040.md",
+    "line": 104,
+    "extracted_file": "src\\代码清单40-3_ CI流水线完整配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单40-4: 覆盖率报告Rake任务",
+    "lang": "ruby",
+    "chapter_file": "chapter-040.md",
+    "line": 322,
+    "extracted_file": "src\\代码清单40-4_ 覆盖率报告Rake任务.rb",
+    "source": null
+  },
+  {
+    "title": "代码清单40-5: 自动部署Job配置",
+    "lang": "yaml",
+    "chapter_file": "chapter-040.md",
+    "line": 417,
+    "extracted_file": "src\\代码清单40-5_ 自动部署Job配置.yml",
+    "source": null
+  },
+  {
+    "title": "代码清单40-6: 自动部署Shell脚本",
+    "lang": "bash",
+    "chapter_file": "chapter-040.md",
+    "line": 445,
+    "extracted_file": "src\\代码清单40-6_ 自动部署Shell脚本.sh",
+    "source": null
+  }
+]

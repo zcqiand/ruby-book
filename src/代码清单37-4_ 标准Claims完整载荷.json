@@ -1,0 +1,11 @@
+{
+  "iss": "https://api.example.com",
+  "sub": "user_123",
+  "aud": "ecommerce-app",
+  "exp": 1750000000,
+  "nbf": 1749996400,
+  "iat": 1749996400,
+  "jti": "550e8400-e29b-41d4-a716-446655440000",
+  "role": "admin",
+  "email": "user@example.com"
+}
